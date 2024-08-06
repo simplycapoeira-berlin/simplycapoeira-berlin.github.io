@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: contact
     content:
-      title: Contact
+      title: Contact and Training Location
       text: |-
         Join us at the training or contact us.
       email: sc-capo-berlin@t-online.de
