@@ -36,7 +36,30 @@ sections:
         <br>
         
         **Capoeira** .
+
   
+  - block: contact
+    content:
+      title: Training Location at MELO 
+      text: |-
+        Join us at the training, guests are always welcome! Currently we have one adult training session and two kids training sessions at the small gym of MELO (Marie-Elisabeth-Lüders-Oberschule).
+      address:
+        street: Steinmetzstraße 79, 10783 Berlin
+        # city: Berlin 
+        # postcode: '10783'
+        country: Germany
+        country_code: DE
+      coordinates:
+        latitude: '52.499238779432005'
+        longitude: '13.36469710838366'
+      directions: small gym on the upper floor
+      office_hours:
+        - 'Kids: Tuesday and Thursday 17:00 to 18:30'
+        - 'Adults: Friday 20:00 to 21:30'
+      autolink: true
+    design:
+      columns: '2'
+
   - block: collection
     content:
       title: Latest News

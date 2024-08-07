@@ -7,44 +7,55 @@ type: landing
 sections:
   - block: contact
     content:
-      title: Contact and Training Location
+      title: Contact
       text: |-
-        Join us at the training or contact us.
+        Contact us for any questions.
       email: sc-capo-berlin@t-online.de
       # phone: 888 888 88 88
-      address:
-        street: Steinmetzstraße 79, 10783 Berlin
-        # city: Berlin 
-        # postcode: '10783'
-        country: Germany
-        country_code: DE
-      coordinates:
-        latitude: '52.499238779432005'
-        longitude: '13.36469710838366'
-      directions: small gym on the upper floor
-      office_hours:
-        - 'Kids: Tuesday and Thursday 17:00 to 18:30'
-        - 'Adults: Friday 20:00 to 21:30'
-      # appointment_url: 'https://calendly.com'
-      #contact_links:
-      #  - icon: comments
-      #    icon_pack: fas
-      #    name: Discuss on Forum
-      #    link: 'https://discourse.gohugo.io'
-    
-      # Automatically link email and phone or display as text?
       autolink: true
     
-      # # Email form provider
-      # form:
-      #   provider: netlify
-      #   formspree:
-      #     id:
-      #   netlify:
-      #     # Enable CAPTCHA challenge to reduce spam?
-      #     captcha: false
     design:
-      columns: '1'
+      columns: '2'
+
+  # NOTE: below is the template with a map-function
+  # - block: contact
+  #   content:
+  #     title: Training Location at MELO 
+  #     text: |-
+  #       Join us at the training, guests are always welcome!
+  #     address:
+  #       street: Steinmetzstraße 79, 10783 Berlin
+  #       # city: Berlin 
+  #       # postcode: '10783'
+  #       country: Germany
+  #       country_code: DE
+  #     coordinates:
+  #       latitude: '52.499238779432005'
+  #       longitude: '13.36469710838366'
+  #     directions: small gym on the upper floor
+  #     office_hours:
+  #       - 'Kids: Tuesday and Thursday 17:00 to 18:30'
+  #       - 'Adults: Friday 20:00 to 21:30'
+  #     # appointment_url: 'https://calendly.com'
+  #     #contact_links:
+  #     #  - icon: comments
+  #     #    icon_pack: fas
+  #     #    name: Discuss on Forum
+  #     #    link: 'https://discourse.gohugo.io'
+  #   
+  #     # Automatically link email and phone or display as text?
+  #     autolink: true
+  #   
+  #     # # Email form provider
+  #     # form:
+  #     #   provider: netlify
+  #     #   formspree:
+  #     #     id:
+  #     #   netlify:
+  #     #     # Enable CAPTCHA challenge to reduce spam?
+  #     #     captcha: false
+  #   design:
+  #     columns: '2'
 
   # - block: markdown
   #   content:
