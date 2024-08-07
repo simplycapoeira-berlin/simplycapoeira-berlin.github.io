@@ -77,7 +77,7 @@ sections:
       page_type: event 
     design:
       view: card
-      columns: '1'
+      columns: '2'
 
   - block: collection
     content:
@@ -96,7 +96,7 @@ sections:
       page_type: post
     design:
       view: card
-      columns: '1'
+      columns: '2'
 
   - block: markdown
     content:
