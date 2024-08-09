@@ -14,7 +14,7 @@ role: Supervision (located in Madrid)
 
 # Organizations/Affiliations
 organizations:
-  - name: Simplesmente Capoeira Berlin e.V. 
+  - name: Simplesmente Capoeira
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
