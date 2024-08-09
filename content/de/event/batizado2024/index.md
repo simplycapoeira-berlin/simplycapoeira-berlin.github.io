@@ -4,12 +4,12 @@ title: Batizado e Troca de Cordas - 2024
 event: Batizado e Troca de Cordas
 event_url: https://www.sc-capoeira.de
 
-location: tba-Wettkampfhalle
+location: Johanna-Eck-Schule Wettkampfhalle
 address:
-  street: tba 
+  street: Ringstraße 103-106, 12105 Berlin 
   city:  
-  region: Berlin
-  postcode: '10783'
+  # region: Berlin
+  # postcode: '12105'
   country: Germany 
 
 summary: Unsere "Batizado e Troca de Cordas" ist dieses Jahr am **ersten Oktober Wochenende** und unser frisch gekürter **Mestre Bala** kommt aus Madrid angereist. Nicht verpassen!
