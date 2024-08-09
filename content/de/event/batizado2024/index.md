@@ -12,8 +12,8 @@ address:
   postcode: '10783'
   country: Germany 
 
-summary: We will have our yearly Batizado at the start of October and our fresh **Mestre Bala** will join us the first time in Germany. Don't you miss it!
-abstract: 'In 2024 we will have our Batizado with an opening horda on friday, workshops on Saturday and Sunday and get-together on Saturday evening.'
+summary: Unsere "Batizado e Troca de Cordas" ist dieses Jahr am **ersten Oktober Wochenende** und unser frisch gekürter **Mestre Bala** kommt aus Madrid angereist. Nicht verpassen!
+abstract: '2024 beginnt unsere "Batizado e Troca de Cordas" mit einer Eröffnungs-Horda am Freitag, gefolgt von Workshops am Samstag und Sonntag. Der genaue Zeitablauf folgt in kürze!'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -60,5 +60,5 @@ projects:
 # 
 # Further event details, including page elements such as image galleries, can be added to the body of this page.
 ---
-We are looking forward and train hard!
+Bald geht es richtig los!
 

@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Simplesmente Capoeira e.V. 
+title: Simplesmente Capoeira Berlin e.V. 
 
 # Full Name (for SEO)
-first_name: Simplesmente Capoeira
+first_name: Simplesmente Capoeira Berlin
 last_name: e.V. 
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Orga 
+role: Organization 
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: Our Group.
+bio: Foco, Força E Fé
 
 interests:
 

@@ -22,10 +22,10 @@ publication_types: ['paper-conference']
 # publication: In *Wowchemy Conference*
 # publication_short: In *ICW*
 
-abstract: Our Membership application form.
+abstract: Unser Aufnahmeantrag, einfach ausfüllen und einreichen.
 
 # Summary. An optional shortened abstract.
-summary: Feel free to join our group.
+summary: Wir freuen uns über jedes neue Mitglied.
 
 tags: []
 
@@ -69,4 +69,4 @@ projects:
 slides: example
 ---
 
-Download, fill out the form and send it to sc-capo-berlin@t-online.de 
+Download, ausfüllen und senden an sc-capo-berlin@t-online.de 

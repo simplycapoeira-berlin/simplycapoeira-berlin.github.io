@@ -1,10 +1,10 @@
 ---
-title: We are now officially Sportförderungswürdig!
+title: Wir sind nun offiziell Sportförderungswürdig!
 date: 2024-05-29
 ---
 
-After about 10 month, since the group was officially founded, we are now eligible to apply for gyms in Berlin.
+Nach ca. 10 Monaten, nach der offiziellen Gründung unseres Vereins, haben wir nun die Möglichkeit Sporthallen in Berlin für unser Training zu nutzen.
 
 <!--more-->
 
-We are super happy about this and thank the senat of Berlin a lot for its approval and the Landessportbund Berlin as well!
+Wir sind sehr glücklich über diesen Status und bedanken uns beim Berliner Senat und dem Landessportbund Berlin!

@@ -22,10 +22,10 @@ publication_types: ['paper-conference']
 # publication: In *Wowchemy Conference*
 # publication_short: In *ICW*
 
-abstract: The up to date version of our statute.
+abstract: Die aktuelle Version unserer Satzung.
 
 # Summary. An optional shortened abstract.
-summary: Read it if you are interested in how to organize a annual meeting, enter our group or leave it.
+summary: Alles rechtliche rund um SC Berlin e.V., wie zum Beispiel Fristen, unsere Organe und wie man unserem Verein beitritt.
 
 tags: []
 

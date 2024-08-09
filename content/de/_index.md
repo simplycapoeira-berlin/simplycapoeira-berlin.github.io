@@ -34,15 +34,13 @@ sections:
         filename: SC_example_horda.jpeg
       text: |
         <br>
-        
-        **Capoeira** .
-
+        Wir sind eine internationale Capoeira Gruppe, deren Ziel es ist die Fundamente von Capoeira zu studieren und zu implementieren, mit einem Fokus auf Technik und grundlegende Prinzipien.
   
   - block: contact
     content:
-      title: Training Location at MELO 
+      title: Trainingsort in der MELO
       text: |-
-        Join us at the training, guests are always welcome! Currently we have one adult training session and two kids training sessions at the small gym of MELO (Marie-Elisabeth-Lüders-Oberschule).
+        Kommt zu unserem Training, Gäste sind immer willkommen! Zur Zeit können wir ein Erwachsenen- und zwei Kinder/Jugendliche- Trainingseinheiten in der Gymnastikhalle der MELO (Marie-Elisabeth-Lüders-Oberschule) anbieten.
       address:
         street: Steinmetzstraße 79, 10783 Berlin
         # city: Berlin 
@@ -54,15 +52,15 @@ sections:
         longitude: '13.36469710838366'
       directions: small gym on the upper floor
       office_hours:
-        - 'Kids: Tuesday and Thursday 17:00 to 18:30'
-        - 'Adults: Friday 20:00 to 21:30'
+        - 'Kinder: Dienstag und Donnerstag 17:00 to 18:30'
+        - 'Erwachsene: Freitag 20:00 to 21:30'
       autolink: true
     design:
       columns: '2'
 
   - block: collection
     content:
-      title: Latest Events 
+      title: Neueste Events 
       subtitle:
       text:
       count: 2
@@ -81,7 +79,7 @@ sections:
 
   - block: collection
     content:
-      title: Latest News
+      title: Neuigkeiten 
       subtitle:
       text:
       count: 2
