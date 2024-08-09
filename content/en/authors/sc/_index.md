@@ -18,7 +18,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: Foco, Força E Fé
+bio: Força, Foco E Fé
 
 interests:
 
