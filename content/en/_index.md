@@ -35,7 +35,7 @@ sections:
       text: |
         <br>
         
-        **Capoeira** .
+        We are an international group of capoeira, whose purpose is to implement the fundamentals of capoeira, focusing on the evolution of technique and basic principles.
 
   
   - block: contact
