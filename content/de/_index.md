@@ -60,7 +60,7 @@ sections:
 
   - block: collection
     content:
-      title: Neueste Events 
+      title: Bevorstehende Veranstaltungen 
       subtitle:
       text:
       count: 2
