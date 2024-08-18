@@ -12,8 +12,8 @@ address:
   # postcode: '12105'
   country: Germany 
 
-summary: Unsere "Batizado e Troca de Cordas" ist dieses Jahr am **ersten Oktober Wochenende** und unser frisch gekürter **Mestre Bala** kommt aus Madrid angereist. Nicht verpassen!
-abstract: '2024 beginnt unsere "Batizado e Troca de Cordas" mit einer Eröffnungs-Horda am Freitag, gefolgt von Workshops am Samstag und Sonntag. Der genaue Zeitablauf folgt in kürze!'
+summary: Unsere "Batizado e Troca de Cordas" ist dieses Jahr am **ersten Oktober Wochenende** und unser frisch gekürter **Mestre Bala** kommt aus Madrid angereist. Meldet euch [HIER](https://forms.gle/owTEPx66vEDFXHHPA) an!
+abstract: '2024 beginnt unsere "Batizado e Troca de Cordas" mit einer Eröffnungs-Horda am Freitag, gefolgt von Workshops am Samstag und Sonntag. Der genaue Zeitablauf folgt in kürze! Über diese [FORM](https://forms.gle/owTEPx66vEDFXHHPA) könnt ihr euch registrieren, T-shirt und (falls benötigt) Abada Größe angeben.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

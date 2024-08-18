@@ -32,6 +32,21 @@ sections:
     design:
       columns: '2'
 
+  - block: markdown 
+    content:
+      title: Bank account / Donations
+      text: |-
+        Please transfer membership fees and donations to our bank account.
+
+        We are thankful for any donation. If you need a receipt, please contact us.
+        
+        **Account holder**: Simplesmente Capoeira Berlin e.V.
+
+        **IBAN**: DE38 8306 5408 **0005 3604 55**
+    
+    design:
+      columns: '2'
+
   # NOTE: below is the template with a map-function
   # - block: contact
   #   content:

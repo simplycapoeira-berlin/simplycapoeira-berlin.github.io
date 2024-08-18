@@ -12,8 +12,8 @@ address:
   # postcode: '12105'
   country: Germany 
 
-summary: We will have our yearly Batizado at the start of October and our just appointed **Mestre Bala** will join us the first time in Germany. Don't you miss it!
-abstract: 'In 2024 we will have our Batizado with an opening horda on friday, workshops on Saturday and Sunday and get-together on Saturday evening.'
+summary: We will have our yearly Batizado at the start of October and our just appointed **Mestre Bala** will join us the first time in Germany. Register [HERE](https://forms.gle/owTEPx66vEDFXHHPA)!
+abstract: 'In 2024 we will have our Batizado with an opening horda on friday, workshops on Saturday and Sunday and get-together on Saturday evening. With this [FORM](https://forms.gle/owTEPx66vEDFXHHPA) you can register, and choose the size of your t-shirt and (optional) abada.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

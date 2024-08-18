@@ -32,6 +32,21 @@ sections:
     design:
       columns: '2'
 
+  - block: markdown 
+    content:
+      title: Bankverbindung / Spenden
+      text: |-
+        Mitgliedsbeiträge und Spenden bitte auf untenstehendes Konto überweisen.
+
+        Wir freuen uns über jede Spende, falls ihr eine Spendenquittung benötigt, bitte kontaktiert uns.
+        
+        **Inhaber**: Simplesmente Capoeira Berlin e.V.
+
+        **IBAN**: DE38 8306 5408 **0005 3604 55**
+    
+    design:
+      columns: '2'
+
   # NOTE: below is the template with a map-function
   # - block: contact
   #   content:
