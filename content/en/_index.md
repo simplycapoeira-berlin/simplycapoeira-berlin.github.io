@@ -1,29 +1,11 @@
 ---
 # Leave the homepage title empty to use the site title
+
 title:
 date: 2022-10-24
 type: landing
 
 sections:
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: Website_SC_row.png 
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['0', '0', '0', '0']
-      css_class: fullscreen
 
   - block: hero
     content:
@@ -31,7 +13,7 @@ sections:
         Simplesmente 
         Capoeira Berlin e.V.
       image:
-        filename: SC_example_horda.jpeg
+        filename: sharing.jpg
       text: |
         <br>
         
