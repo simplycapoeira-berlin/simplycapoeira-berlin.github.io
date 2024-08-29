@@ -15,13 +15,13 @@ sections:
         filename: sharing.jpg
       text: |
         <br>
-        Wir sind eine internationale Capoeira Gruppe, deren Ziel es ist die Fundamente von Capoeira zu studieren und zu implementieren, mit einem Fokus auf Technik und grundlegende Prinzipien.
+        Wir sind eine internationale Capoeira-Gruppe, deren Ziel es ist, die Fundamente von Capoeira zu studieren und zu implementieren, mit Fokus auf Technik und Grundprinzipien.
   
   - block: contact
     content:
       title: Trainingsort in der MELO
       text: |-
-        Kommt zu unserem Training, Gäste sind immer willkommen! Zur Zeit können wir ein Erwachsenen- und zwei Kinder/Jugendliche- Trainingseinheiten in der Gymnastikhalle der MELO (Marie-Elisabeth-Lüders-Oberschule) anbieten.
+        Kommt zu unserem Training, Gäste sind immer willkommen! Zur Zeit bieten wir eine Trainingseinheit für Erwachsene und zwei Trainingseinheiten für Kinder/Jugendliche in der Gymnastikhalle der MELO (Marie-Elisabeth-Lüders-Oberschule) an.
       address:
         street: Steinmetzstraße 79, 10783 Berlin
         # city: Berlin 
