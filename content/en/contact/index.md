@@ -9,15 +9,8 @@ sections:
     content:
       title: Contact
       text: |-
-        Contact us for any questions.
-        Either via post:
-
-        Simplesmente Capoeira Berlin e. V. <br>
-        z. Hd. Herrn Mert Ögüt <br>
-        Gélieustraße 6a <br>
-        12203 Berlin
-
-        or **via mail** (we prefer that):
+        Contact us for any questions
+        **via mail**:
       email: sc-capo-berlin@t-online.de
       # phone: 888 888 88 88
       autolink: true

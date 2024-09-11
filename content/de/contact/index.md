@@ -9,15 +9,8 @@ sections:
     content:
       title: Contact
       text: |-
-        Kontaktiert uns bei Fragen rund um den Verein.
-        Entweder postalisch:
-
-        Simplesmente Capoeira Berlin e. V. <br>
-        z. Hd. Herrn Mert Ögüt <br>
-        Gélieustraße 6a <br>
-        12203 Berlin
-
-        oder **per EMail** (empfohlen):
+        Kontaktiert uns bei Fragen rund um den Verein
+        gerne **per EMail**:
       email: sc-capo-berlin@t-online.de
       # phone: 888 888 88 88
       autolink: true
