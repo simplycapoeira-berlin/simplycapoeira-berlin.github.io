@@ -19,22 +19,33 @@ sections:
   
   - block: contact
     content:
-      title: Trainingsort in der MELO
+      title: Trainingsorte (MELO, KGS)
       text: |-
-        Kommt zu unserem Training, Gäste sind immer willkommen! Zur Zeit bieten wir eine Trainingseinheit für Erwachsene und zwei Trainingseinheiten für Kinder/Jugendliche in der Gymnastikhalle der MELO (Marie-Elisabeth-Lüders-Oberschule) an.
+        Kommt zu unserem Training, Gäste sind immer willkommen! Zur Zeit bieten wir je zwei Trainingseinheiten für Erwachsene und für Kinder/Jugendliche in die:
+          <br>**MELO**: Gymnastikhalle (oben) der **M**arie-**E**lisabeth-**L**üders-**O**berschule
+          <br>**KGS**: oberen Sporthalle der **K**urt-**S**chumacher-**G**rundschule
+      # BELOW commented stuff could be an option for multicontact (following: https://discourse.gohugo.io/t/variables-in-shortcodes/20637/7)
+      # locations:
+      #   - name: "MELO"
+      #     params:
+      #       latitude: '52.499238779432005'
+      #       longitude: '13.36469710838366'
+      #       address: Steinmetzstraße 79, 10783 Berlin
       address:
-        street: Steinmetzstraße 79, 10783 Berlin
+        street: 'MELO: Steinmetzstraße 79 (10783), KSG: Puttkamerstraße 19 (10969)'
         # city: Berlin 
         # postcode: '10783'
         country: Germany
         country_code: DE
-      coordinates:
-        latitude: '52.499238779432005'
-        longitude: '13.36469710838366'
-      directions: small gym on the upper floor
+      # coordinates:
+      #   latitude: '52.499238779432005'
+      #   longitude: '13.36469710838366'
+      # directions: small gym on the upper floor
       office_hours:
-        - 'Kinder: Dienstag und Donnerstag 17:00 to 18:30'
-        - 'Erwachsene: Freitag 20:00 to 21:30'
+        - '**Kinder**: '
+        - 'Dienstag(MELO) und Donnerstag(MELO) 17:00-18:30'
+        - '**Erwachsene**:'
+        - Dienstag(KSG) 18:00-19:30, Freitag(MELO) 20:00-21:30'
       autolink: true
     design:
       columns: '2'

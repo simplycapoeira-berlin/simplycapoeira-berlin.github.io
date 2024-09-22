@@ -24,20 +24,24 @@ sections:
     content:
       title: Training Location at MELO 
       text: |-
-        Join us at the training, guests are always welcome! Currently we have one adult training session and two kids training sessions at the small gym of MELO (Marie-Elisabeth-Lüders-Oberschule).
+        Join us at the training, guests are always welcome! Currently we have two adult training session and two kids training sessions at:
+          <br>**MELO**: upper gym at **M**arie-**E**lisabeth-**L**üders-**O**berschule
+          <br>**KGS**: upper gym at **K**urt-**S**chumacher-**G**rundschule
       address:
-        street: Steinmetzstraße 79, 10783 Berlin
+        street: 'MELO: Steinmetzstraße 79 (10783), KSG: Puttkamerstraße 19 (10969)'
         # city: Berlin 
         # postcode: '10783'
         country: Germany
         country_code: DE
-      coordinates:
-        latitude: '52.499238779432005'
-        longitude: '13.36469710838366'
+      # coordinates:
+      #   latitude: '52.499238779432005'
+      #   longitude: '13.36469710838366'
       directions: small gym on the upper floor
       office_hours:
-        - 'Kids: Tuesday and Thursday 17:00 to 18:30'
-        - 'Adults: Friday 20:00 to 21:30'
+        - '**Kids**: '
+        - 'Tuesday(MELO) and Thursday(MELO) 17:00-18:30'
+        - '**Adults**:'
+        - Tuesday(KSG) 18:00-19:30, Friday(MELO) 20:00-21:30'
       autolink: true
     design:
       columns: '2'

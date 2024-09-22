@@ -4,7 +4,7 @@ title: Batizado e Troca de Cordas - 2024
 event: Batizado e Troca de Cordas
 event_url: https://www.sc-capoeira.de
 
-location: Johanna-Eck-Schule Wettkampfhalle
+location: Johanna-Eck-Schule Wettkampfhalle (Sa, So)
 address:
   street: Ringstraße 103-106, 12105 Berlin 
   city:  
@@ -13,11 +13,11 @@ address:
   country: Germany 
 
 summary: Unsere "Batizado e Troca de Cordas" ist dieses Jahr am **ersten Oktober Wochenende** und unser frisch gekürter **Mestre Bala** kommt aus Madrid angereist. Meldet euch [HIER](https://forms.gle/owTEPx66vEDFXHHPA) an!
-abstract: '2024 beginnt unsere "Batizado e Troca de Cordas" mit einer Eröffnungs-Horda am Freitag, gefolgt von Workshops am Samstag und Sonntag. Der genaue Zeitablauf folgt in kürze! Über diese [FORM](https://forms.gle/owTEPx66vEDFXHHPA) könnt ihr euch registrieren, T-shirt und (falls benötigt) Abada Größe angeben.'
+abstract: '2024 beginnt unsere "Batizado e Troca de Cordas" mit einer Training und Eröffnungs-Horda am Freitag, gefolgt von Workshops am Samstag und Sonntag. Über diese [FORM](https://forms.gle/owTEPx66vEDFXHHPA) könnt ihr euch registrieren, T-shirt und (falls benötigt) Abada Größe angeben.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2024-10-04T18:00:00Z'
+date: '2024-10-04T16:00:00Z'
 date_end: '2030-10-06T15:00:00Z'
 all_day: false
 
@@ -61,4 +61,8 @@ projects:
 # Further event details, including page elements such as image galleries, can be added to the body of this page.
 ---
 Bald geht es richtig los!
+
+**Achtung, am Freitag** beginnt die Veranstaltung an einem **anderen Ort** (Sporthalle Wilhelmstraße 117, 10963 Berlin)
+
+![Das 2024 Programm der Batizado e Troca de Cordas von Simplesmente Capoeira Berlin e. V.](Flyer.jpeg)
 
