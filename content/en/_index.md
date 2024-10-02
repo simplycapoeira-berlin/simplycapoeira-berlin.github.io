@@ -36,7 +36,7 @@ sections:
       # coordinates:
       #   latitude: '52.499238779432005'
       #   longitude: '13.36469710838366'
-      directions: small gym on the upper floor
+      # directions: small gym on the upper floor
       office_hours:
         - '**Kids**: '
         - 'Tuesday(MELO) and Thursday(MELO) 17:00-18:30'
