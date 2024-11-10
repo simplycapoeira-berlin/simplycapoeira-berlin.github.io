@@ -52,7 +52,7 @@ sections:
 
   - block: collection
     content:
-      title: Bevorstehende Veranstaltungen 
+      title: Veranstaltungen 
       subtitle:
       text:
       count: 2

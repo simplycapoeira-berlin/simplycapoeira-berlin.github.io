@@ -12,8 +12,8 @@ address:
   # postcode: '12105'
   country: Germany 
 
-summary: We will have our yearly Batizado at the start of October and our just appointed **Mestre Bala** will join us the first time in Germany. Register [HERE](https://forms.gle/owTEPx66vEDFXHHPA)!
-abstract: 'In 2024 we will have our Batizado with training and opening horda on friday, workshops on Saturday and Sunday and get-together on Saturday evening. With this [FORM](https://forms.gle/owTEPx66vEDFXHHPA) you can register, and choose the size of your t-shirt and (optional) abada.'
+summary: Our ‘Batizado e Troca de Cordas’ was a **full success** on the first weekend of October. With our newly appointed **Mestre Bala** from Madrid and many supporters, we were able to charge the three days with energy. 
+abstract: 'From Friday to Sunday we lived and celebrated Capoeira with you! A big thank you to everyone who supported the event: Mestre Bala ([SC Madrid](https://www.instagram.com/simplesmentecapoeira/?hl=de)), Mestre Bailarino ([Capoeira Raiz](https://capoeiraraiz.eu/de/)), Mestre Nelsinho ([Unicar Berlin](https://capoeira-regional.eu/)), Professora Nativa ([Abada Berlin](https://www.abada-berlin.de/)), Instrutor Furão ([Ginga Balanca](https://capoeiraverein-ma.de/)) and their students!'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -60,9 +60,7 @@ projects:
 # 
 # Further event details, including page elements such as image galleries, can be added to the body of this page.
 ---
-We are looking forward and train hard!
-
-
-**Attention, on friday** the event starts at a **different location** (Sporthalle Wilhelmstraße 117, 10963 Berlin)
+Impressions from the event:
+{{< youtube YdjzNCgzTjU >}}
 
 ![The program of the 2024 Batizado e Troca de Corda from Simplesmente Capoeira Berlin e.V.](Flyer.jpeg)

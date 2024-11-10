@@ -12,8 +12,8 @@ address:
   # postcode: '12105'
   country: Germany 
 
-summary: Unsere "Batizado e Troca de Cordas" ist dieses Jahr am **ersten Oktober Wochenende** und unser frisch gekürter **Mestre Bala** kommt aus Madrid angereist. Meldet euch [HIER](https://forms.gle/owTEPx66vEDFXHHPA) an!
-abstract: '2024 beginnt unsere "Batizado e Troca de Cordas" mit einer Training und Eröffnungs-Horda am Freitag, gefolgt von Workshops am Samstag und Sonntag. Über diese [FORM](https://forms.gle/owTEPx66vEDFXHHPA) könnt ihr euch registrieren, T-shirt und (falls benötigt) Abada Größe angeben.'
+summary: Unsere "Batizado e Troca de Cordas" war am ersten Oktober Wochenende ein **voller Erfolg**. Mit unserem frisch gekührten **Mestre Bala** aus Madrid und vielen Unterstützern konnten wir die drei Tage mit Energie aufladen.
+abstract: 'Von Freitag bis Sonntag haben wir Capoeira mit euch gelebt und gefeiert! Einen riesen Dank an alle die das Event unterstütz haben: Mestre Bala ([SC Madrid](https://www.instagram.com/simplesmentecapoeira/?hl=de)), Mestre Bailarino ([Capoeira Raiz](https://capoeiraraiz.eu/de/)), Mestre Nelsinho ([Unicar Berlin](https://capoeira-regional.eu/)), Professora Nativa ([Abada Berlin](https://www.abada-berlin.de/)), Instrutor Furão ([Ginga Balanca](https://capoeiraverein-ma.de/)) und deren Schülern!'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -60,9 +60,9 @@ projects:
 # 
 # Further event details, including page elements such as image galleries, can be added to the body of this page.
 ---
-Bald geht es richtig los!
+Einblicke in das Event:
+{{< youtube YdjzNCgzTjU >}}
 
-**Achtung, am Freitag** beginnt die Veranstaltung an einem **anderen Ort** (Sporthalle Wilhelmstraße 117, 10963 Berlin)
 
 ![Das 2024 Programm der Batizado e Troca de Cordas von Simplesmente Capoeira Berlin e. V.](Flyer.jpeg)
 
