@@ -27,8 +27,9 @@ sections:
         Join us at the training, guests are always welcome! Currently we have two adult training session and two kids training sessions at:
           <br>**MELO**: upper gym at **M**arie-**E**lisabeth-**L**üders-**O**berschule
           <br>**KGS**: upper gym at **K**urt-**S**chumacher-**G**rundschule
+          <br>**TAM**: gym of Interkulturellen Familienzentrums **tam**
       address:
-        street: 'MELO: Steinmetzstraße 79 (10783), KSG: Puttkamerstraße 19 (10969)'
+        street: 'MELO:Steinmetzstr. 79 (10783), KSG:Puttkamerstr. 19 (10969), TAM:Wilhelmstr. 116 – 117 (10963)'
         # city: Berlin 
         # postcode: '10783'
         country: Germany
@@ -40,6 +41,7 @@ sections:
       office_hours:
         - '**Kids**: '
         - 'Tuesday(MELO) and Thursday(MELO) 17:00-18:30'
+        - 'Friday(TAM) 16:30-18:00'
         - '**Adults**:'
         - Tuesday(KSG) 18:00-19:30, Friday(MELO) 20:00-21:30'
       autolink: true

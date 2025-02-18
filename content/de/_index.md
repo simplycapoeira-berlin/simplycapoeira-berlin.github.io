@@ -24,6 +24,7 @@ sections:
         Kommt zu unserem Training, Gäste sind immer willkommen! Zur Zeit bieten wir je zwei Trainingseinheiten für Erwachsene und für Kinder/Jugendliche in die:
           <br>**MELO**: Gymnastikhalle (oben) der **M**arie-**E**lisabeth-**L**üders-**O**berschule
           <br>**KGS**: oberen Sporthalle der **K**urt-**S**chumacher-**G**rundschule
+          <br>**TAM**: Sporthalle des Interkulturellen Familienzentrums **tam**
       # BELOW commented stuff could be an option for multicontact (following: https://discourse.gohugo.io/t/variables-in-shortcodes/20637/7)
       # locations:
       #   - name: "MELO"
@@ -32,7 +33,7 @@ sections:
       #       longitude: '13.36469710838366'
       #       address: Steinmetzstraße 79, 10783 Berlin
       address:
-        street: 'MELO: Steinmetzstraße 79 (10783), KSG: Puttkamerstraße 19 (10969)'
+        street: 'MELO:Steinmetzstr. 79 (10783), KSG:Puttkamerstr. 19 (10969), TAM:Wilhelmstr. 116 – 117 (10963)'
         # city: Berlin 
         # postcode: '10783'
         country: Germany
@@ -44,8 +45,9 @@ sections:
       office_hours:
         - '**Kinder**: '
         - 'Dienstag(MELO) und Donnerstag(MELO) 17:00-18:30'
+        - 'Freitag(TAM) 16:30-18:00'
         - '**Erwachsene**:'
-        - Dienstag(KSG) 18:00-19:30, Freitag(MELO) 20:00-21:30'
+        - 'Dienstag(KSG) 18:00-19:30, Freitag(MELO) 20:00-21:30'
       autolink: true
     design:
       columns: '2'
