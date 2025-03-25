@@ -46,6 +46,42 @@ sections:
     
     design:
       columns: '2'
+      
+  - block: contact
+    content:
+      title: Webdesign and Programming
+      text: |-
+        Pascal Klamser
+      email: sc-capo-berlin@t-online.de
+      autolink: true
+    design:
+      columns: '2'
+
+  - block: markdown 
+    content:
+      title: Legal notice
+      text: |-
+        All details and information contained on our website have been carefully researched and checked by Simplesmente Capoeira Berlin e.V.. This information is a service provided by the association. Neither Simplesmente Capoeira Berlin e.V. nor external service providers can be held liable for the accuracy, completeness and topicality of the information provided.
+ 
+        All information is provided solely for the information of visitors to the website. Otherwise, liability is limited to intent and gross negligence. The respective providers are responsible for third-party websites to which Simplesmente Capoeira Berlin e.V. refers via hyperlinks. The Simplesmente Capoeira Berlin e.V. is not responsible for the content of such third-party websites.
+
+        Furthermore, the website of Simplesmente Capoeira Berlin e.V. may have been linked from another site via hyperlink without its knowledge. The Simplesmente Capoeira Berlin e.V. accepts no responsibility for the presentation, content or any connection of Simplesmente Capoeira Berlin e.V. on the websites of third parties.
+
+        Furthermore, Simplesmente Capoeira Berlin e.V. reserves the right to make changes or additions to the information provided.
+    design:
+      columns: '1'
+
+  - block: markdown 
+    content:
+      title: Copyright notice
+      text: |-
+        Content - regardless of whether it is Simplesmente Capoeira Berlin e.V.'s own content or links to third-party content - and the structure of Simplesmente Capoeira Berlin e.V. website are protected by copyright. The reproduction of information or data, in particular the use of texts, parts of texts, images or other content requires the prior consent of Simplesmente Capoeira Berlin e.V. or the rights holders (third parties).
+
+        This does not apply to content that is freely accessible on the pages of Simplesmente Capoeira Berlin e.V. and is used free of charge. Press releases, news and press photos of Simplesmente Capoeira Berlin e.V. may be used explicitly for editorial purposes. The user must ensure that the source and copyright details of the respective material are used completely and correctly.
+    design:
+      columns: '1'
+    
+
 
   # NOTE: below is the template with a map-function
   # - block: contact

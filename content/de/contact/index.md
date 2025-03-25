@@ -43,11 +43,43 @@ sections:
         <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Spenden mit dem PayPal-Button" />
         <img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1" />
         </form>
-
-
-    
     design:
       columns: '2'
+
+  - block: contact
+    content:
+      title: Webdesign und Programmierung 
+      text: |-
+        Pascal Klamser
+      email: sc-capo-berlin@t-online.de
+      autolink: true
+    design:
+      columns: '2'
+
+  - block: markdown 
+    content:
+      title: Rechtshinweis 
+      text: |-
+        Alle in unseren Internetseiten enthaltenen Angaben und Informationen wurden von Simplesmente Capoeira Berlin e.V. sorgfältig recherchiert und geprüft. Diese Informationen sind ein Service des Verbandes. Für Richtigkeit, Vollständigkeit und Aktualität können weder der Simplesmente Capoeira Berlin e.V. noch externe Dienstleister die Haftung übernehmen.
+
+        Alle Informationen dienen ausschließlich zur Information der Besucher des Onlineangebotes. Im Übrigen ist die Haftung auf Vorsatz und grobe Fahrlässigkeit beschränkt. Für Internetseiten Dritter, auf die der Simplesmente Capoeira Berlin e.V. durch Hyperlink verweist, tragen die jeweiligen Anbieter die Verantwortung. Der Simplesmente Capoeira Berlin e.V. ist für den Inhalt solcher Seiten Dritter nicht verantwortlich.
+
+        Des Weiteren kann die Web-Seite des Simplesmente Capoeira Berlin e.V. ohne dessen Wissen von einer anderen Seite mittels Hyperlink verlinkt worden sein. Der Simplesmente Capoeira Berlin e.V. übernimmt keine Verantwortung für Darstellung, Inhalt oder irgendeiner Verbindung des Simplesmente Capoeiraes Berlin e.V. in Web-Seiten Dritter.
+
+        Außerdem behält sich der Simplesmente Capoeira Berlin e.V. das Recht vor, Änderungen oder Ergänzungen der bereitgestellten Informationen vorzunehmen.
+    design:
+      columns: '1'
+
+  - block: markdown 
+    content:
+      title: Urheberrechtlicher Hinweis 
+      text: |-
+        Inhalte - ganz gleich ob eigene Inhalte des Simplesmente Capoeira Berlin e.V. oder Verweise auf Inhalte Dritter - sowie die Struktur der Internet-Seiten des Simplesmente Capoeira Berlin e.V. sind urheberrechtlich geschützt. Die Vervielfältigung von Informationen oder Daten, insbesondere die Verwendung von Texten, Textteilen, Bildmaterial oder sonstigen Inhalten bedarf grundsätzlich der vorherigen Zustimmung durch den Simplesmente Capoeira Berlin e.V. bzw. die Rechteinhaber (Dritter).
+
+        Dies gilt nicht für solche Inhalte, die auf den Seiten des Simplesmente Capoeira Berlin e.V. frei zugänglich sind und zur kostenfreien Nutzung übernommen werden. Pressemitteilungen, News sowie Pressefotos des Simplesmente Capoeira Berlin e.V. dürfen explizit zu redaktionellen Zwecken genutzt werden. Der Nutzer hat sicherzustellen, dass die Quellen- und Urheberangaben des jeweiligen Materials vollständig und korrekt übernommen werden.
+
+    design:
+      columns: '1'
 
   # NOTE: below is the template with a map-function
   # - block: contact
