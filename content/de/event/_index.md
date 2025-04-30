@@ -1,5 +1,5 @@
 ---
-title: Bevorstehende Veranstaltungen 
+title: Veranstaltungen 
 
 # Listing view
 view: compact

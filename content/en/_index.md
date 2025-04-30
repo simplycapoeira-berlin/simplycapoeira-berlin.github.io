@@ -50,7 +50,7 @@ sections:
 
   - block: collection
     content:
-      title: Latest Events 
+      title: Events 
       subtitle:
       text:
       count: 2
@@ -69,7 +69,7 @@ sections:
 
   - block: collection
     content:
-      title: Latest News
+      title: News
       subtitle:
       text:
       count: 2
