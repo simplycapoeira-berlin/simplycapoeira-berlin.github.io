@@ -4,6 +4,7 @@ date: 2024-08-06
 
 type: landing
 
+
 sections:
   - block: contact
     content:
@@ -80,6 +81,24 @@ sections:
 
     design:
       columns: '1'
+
+# NOTE: below I tried a video wrapping (ordering them in a grid) works nicely (module is defined in assets/scss/template.scss)
+#  - block: markdown 
+#    content:
+#      title: videos 
+#      text: |-
+#        test
+#        <div class="videowrapper">
+#          {{< youtube id="YdjzNCgzTjU" class="video" >}}
+#          {{< youtube id="6zeRtOSGpAI" class="video" >}}
+#          {{< youtube id="YdjzNCgzTjU" class="video" >}}
+#          {{< youtube id="YdjzNCgzTjU" class="video" >}}
+#          {{< youtube id="YdjzNCgzTjU" class="video" >}}
+#          {{< youtube id="YdjzNCgzTjU" class="video" >}}
+#          {{< youtube id="YdjzNCgzTjU" class="video" >}}
+#          {{< youtube id="YdjzNCgzTjU" class="video" >}}
+#          {{< youtube id="YdjzNCgzTjU" class="video" >}}
+#        </div>
 
   # NOTE: below is the template with a map-function
   # - block: contact
