@@ -19,11 +19,11 @@ sections:
   
   - block: contact
     content:
-      title: Trainingsorte (MELO, KGS)
+      title: Trainingsorte (MELO, KSG, TAM)
       text: |-
         Kommt zu unserem Training, Gäste sind immer willkommen! Zur Zeit bieten wir je zwei Trainingseinheiten für Erwachsene und für Kinder/Jugendliche in die:
           <br>**MELO**: Gymnastikhalle (oben) der **M**arie-**E**lisabeth-**L**üders-**O**berschule
-          <br>**KGS**: oberen Sporthalle der **K**urt-**S**chumacher-**G**rundschule
+          <br>**KSG**: oberen Sporthalle der **K**urt-**S**chumacher-**G**rundschule
           <br>**TAM**: Sporthalle des Interkulturellen Familienzentrums **tam**
       # BELOW commented stuff could be an option for multicontact (following: https://discourse.gohugo.io/t/variables-in-shortcodes/20637/7)
       # locations:

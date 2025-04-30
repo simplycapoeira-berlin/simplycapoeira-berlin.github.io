@@ -22,11 +22,11 @@ sections:
   
   - block: contact
     content:
-      title: Training Location at MELO 
+      title: Training Locations (MELO, KSG, TAM) 
       text: |-
         Join us at the training, guests are always welcome! Currently we have two adult training session and two kids training sessions at:
           <br>**MELO**: upper gym at **M**arie-**E**lisabeth-**L**üders-**O**berschule
-          <br>**KGS**: upper gym at **K**urt-**S**chumacher-**G**rundschule
+          <br>**KSG**: upper gym at **K**urt-**S**chumacher-**G**rundschule
           <br>**TAM**: gym of Interkulturellen Familienzentrums **tam**
       address:
         street: 'MELO:Steinmetzstr. 79 (10783), KSG:Puttkamerstr. 19 (10969), TAM:Wilhelmstr. 116 – 117 (10963)'

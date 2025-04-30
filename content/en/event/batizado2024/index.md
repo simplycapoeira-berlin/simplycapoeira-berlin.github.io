@@ -63,4 +63,4 @@ projects:
 Impressions from the event:
 {{< youtube YdjzNCgzTjU >}}
 
-![The program of the 2024 Batizado e Troca de Corda from Simplesmente Capoeira Berlin e.V.](Flyer.jpeg)
+![The program of the 2024 Batizado e Troca de Corda from Simplesmente Capoeira Berlin e.V.](2024_batizado_flyer.jpeg)

@@ -64,5 +64,5 @@ Einblicke in das Event:
 {{< youtube YdjzNCgzTjU >}}
 
 
-![Das 2024 Programm der Batizado e Troca de Cordas von Simplesmente Capoeira Berlin e. V.](Flyer.jpeg)
+![Das 2024 Programm der Batizado e Troca de Cordas von Simplesmente Capoeira Berlin e. V.](2024_batizado_flyer.jpeg)
 
