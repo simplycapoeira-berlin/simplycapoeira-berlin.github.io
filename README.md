@@ -5,7 +5,8 @@ derived from [Hugo Research Group Theme](https://github.com/wowchemy/starter-hug
 
 ## developer notes
 
-For costumization add scss code in [./assets/scss/template.scss](./assets/scss/template.scss) (I tried creating a new file `./assets/scss/costume.scss` but it is not imported even though according to `hugo mod graph` the github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5@ is used and according to their [assets/scss/main.scss](https://github.com/HugoBlox/hugo-blox-builder/blob/main/modules/blox-bootstrap/assets/scss/main.scss) `template` and `costum` are imported ... still `costum.scss` does not work)
+For costumization add scss code in [./assets/scss/template.scss](./assets/scss/template.scss)
+* **failed attempt custom.scss**: I tried creating a new file `./assets/scss/costume.scss` but it is not imported even though according to `hugo mod graph` the github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5@ is used and according to their [assets/scss/main.scss](https://github.com/HugoBlox/hugo-blox-builder/blob/main/modules/blox-bootstrap/assets/scss/main.scss) `template` and `costum` are imported ... still `costum.scss` does not work
 
 ## usefull links for developing 
 
