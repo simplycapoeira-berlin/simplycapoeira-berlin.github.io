@@ -17,8 +17,8 @@ abstract: 'From Friday to Sunday 26 - 28 September 2025 we will celebrate Capoei
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2025-09-26T17:00:00Z'
-date_end: '2025-09-28T13:00:00Z'
+date: '2025-09-26T18:00:00Z'
+date_end: '2025-09-28T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
