@@ -12,7 +12,7 @@ address:
   # postcode: '12105'
   country: Germany 
 
-summary: Unsere "Batizado e Troca de Cordas" findet im letzten September Wochenende statt. Unser **Mestre Bala** aus Madrid wird uns drei Tage mit tollen Workshops, Technik und Energie aufladen.
+summary: Unsere "Batizado e Troca de Cordas" findet im letzten September Wochenende statt. Unser **Mestre Bala** (David Balarezo Montes) aus Madrid wird uns drei Tage mit tollen Workshops, Technik und Energie aufladen.
 abstract: 'Von Freitag bis Sonntag dem 26 - 28.09.2025 werden wir Capoeira mit euch feiern. Alle sind herzlich Eingeladen dabei zu sein!'
 
 # Talk start and end times.
