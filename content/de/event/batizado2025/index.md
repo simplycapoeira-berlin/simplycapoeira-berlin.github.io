@@ -63,9 +63,6 @@ projects:
 
 ---
 
+![Das 2025 Programm der Batizado e Troca de Cordas von Simplesmente Capoeira Berlin e.V.](2025_batizado_flyer_program.jpeg)
  Einblicke vom letzten Event (Batizado e Troca de Corda 2025):
  {{< youtube YdjzNCgzTjU >}}
- 
- 
- <!-- ![Das 2024 Programm der Batizado e Troca de Cordas von Simplesmente Capoeira Berlin e. V.](2024_batizado_flyer.jpeg) --> 
-
