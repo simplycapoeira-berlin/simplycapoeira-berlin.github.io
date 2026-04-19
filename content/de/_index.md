@@ -27,7 +27,7 @@ sections:
       text: |
         ## Capoeira für Kinder und Erwachsene in Kreuzberg & Schöneberg
 
-        Capoeira ist eine brasilianische Kampfkunst, die Akrobatik, Tanz, Musik und Kultur vereint. In unserem Verein in Berlin lernst Du die **Fundamente der Capoeira**: Grundtechniken, Bewegungsabläufe (Ginga, Esquiva, Au), Schläge und Tritte, Musikinstrumente (Berimbau, Pandeiro, Atabaque) und Lieder auf Portugiesisch. Capoeira trainiert Koordination, Kraft, Beweglichkeit und Rhythmus – und macht dabei richtig Spaß.
+        Capoeira ist eine Afro-brasilianische Kampfkunst, die Akrobatik, Tanz, Musik und Kultur vereint. In unserem Verein in Berlin lernst Du die **Fundamente der Capoeira**: Grundtechniken, Bewegungsabläufe (Ginga, Esquiva, Au), Schläge und Tritte, Musikinstrumente (Berimbau, Pandeiro, Atabaque) und Lieder auf Portugiesisch. Capoeira trainiert Koordination, Kraft, Beweglichkeit und Rhythmus – und macht dabei richtig Spaß.
 
         ## Capoeira Training in Berlin: Unsere Standorte
 

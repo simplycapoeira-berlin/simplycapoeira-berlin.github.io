@@ -28,7 +28,7 @@ sections:
       text: |
         ## Capoeira for Kids and Adults in Kreuzberg & Schöneberg
 
-        Capoeira is a Brazilian martial art that combines acrobatics, dance, music and culture. In our Berlin club you will learn the **fundamentals of capoeira**: basic techniques, movements (Ginga, Esquiva, Au), kicks, musical instruments (Berimbau, Pandeiro, Atabaque) and songs in Portuguese. Capoeira trains coordination, strength, flexibility and rhythm – and it's a lot of fun.
+        Capoeira is a Afro-Brazilian martial art that combines acrobatics, dance, music and culture. In our Berlin club you will learn the **fundamentals of capoeira**: basic techniques, movements (Ginga, Esquiva, Au), kicks, musical instruments (Berimbau, Pandeiro, Atabaque) and songs in Portuguese. Capoeira trains coordination, strength, flexibility and rhythm – and it's a lot of fun.
 
         ## Capoeira Training in Berlin: Our Locations
 
