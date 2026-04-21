@@ -11,10 +11,23 @@ sections:
       title: Contact
       text: |-
         Kontaktiert uns bei Fragen rund um den Verein
-        gerne **per EMail**:
+        gerne **per EMail** – oder folgt uns auf Social Media:
       email: sc-capo-berlin@t-online.de
       # phone: 888 888 88 88
       autolink: true
+      contact_links:
+        - icon: instagram
+          icon_pack: fab
+          name: Instagram – @simplesmente_capoeira_berlin
+          link: 'https://www.instagram.com/simplesmente_capoeira_berlin/'
+        - icon: youtube
+          icon_pack: fab
+          name: YouTube – Simplesmente Capoeira Berlin
+          link: 'https://www.youtube.com/@SimplesmenteCapoeiraBerlin'
+        - icon: youtube
+          icon_pack: fab
+          name: YouTube – Touro Capoeira
+          link: 'https://www.youtube.com/@Tourocapoeira'
       # address:
       #   name: 
       #   street: Simplesmente Capoeira Berlin e. V., z. Hd. Herrn Mert Ögüt, Gélieustraße 6a, 12203 Berlin
@@ -54,6 +67,11 @@ sections:
         Pascal Klamser
       email: sc-capo-berlin@t-online.de
       autolink: true
+      contact_links:
+        - icon: github
+          icon_pack: fab
+          name: Quellcode auf GitHub
+          link: 'https://github.com/simplycapoeira-berlin/simplycapoeira-berlin.github.io'
     design:
       columns: '2'
 

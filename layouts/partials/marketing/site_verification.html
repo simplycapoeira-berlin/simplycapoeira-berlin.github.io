@@ -1,0 +1,125 @@
+{{/* Preserve original Hugoblox site-verification meta tags. */}}
+{{ with site.Params.marketing.verification.google }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
+{{ with site.Params.marketing.verification.baidu }}<meta name="baidu-site-verification" content="{{ . }}">{{ end }}
+
+{{/* ------------------------------------------------------------------
+     JSON-LD structured data — SportsClub schema for the home page.
+     Helps Google understand we are a local Capoeira club in Berlin
+     with three training locations (MELO, KSG, TAM).
+     Images are resolved through Hugo's asset pipeline so the URLs are
+     guaranteed to be valid on the built site.
+     ------------------------------------------------------------------ */}}
+{{ if eq .Kind "home" }}
+{{- $logo := resources.Get "media/icon.png" -}}
+{{- $image := resources.Get "media/sharing.jpg" -}}
+{{- $description := or site.Params.description site.Params.marketing.seo.description -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsClub",
+  "name": "Simplesmente Capoeira Berlin e.V.",
+  "alternateName": "Simplesmente Capoeira e.V.",
+  "url": {{ site.BaseURL | jsonify }},
+  {{ with $logo }}"logo": {{ .Permalink | jsonify }},{{ end }}
+  {{ with $image }}"image": {{ .Permalink | jsonify }},{{ end }}
+  "description": {{ $description | jsonify }},
+  "sport": "Capoeira",
+  "areaServed": {
+    "@type": "City",
+    "name": "Berlin"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Steinmetzstr. 79",
+    "postalCode": "10783",
+    "addressLocality": "Berlin",
+    "addressRegion": "Berlin",
+    "addressCountry": "DE"
+  },
+  "location": [
+    {
+      "@type": "Place",
+      "name": "MELO – Marie-Elisabeth-Lüders-Oberschule",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Steinmetzstr. 79",
+        "postalCode": "10783",
+        "addressLocality": "Berlin",
+        "addressRegion": "Schöneberg",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 52.499238779432005,
+        "longitude": 13.36469710838366
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Tuesday",
+          "opens": "17:00",
+          "closes": "18:30",
+          "description": "Kids training"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Thursday",
+          "opens": "17:00",
+          "closes": "18:30",
+          "description": "Kids training"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "20:00",
+          "closes": "21:30",
+          "description": "Adults training"
+        }
+      ]
+    },
+    {
+      "@type": "Place",
+      "name": "KSG – Kurt-Schumacher-Grundschule",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Puttkamerstr. 19",
+        "postalCode": "10969",
+        "addressLocality": "Berlin",
+        "addressRegion": "Kreuzberg",
+        "addressCountry": "DE"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Tuesday",
+          "opens": "18:00",
+          "closes": "19:30",
+          "description": "Adults training"
+        }
+      ]
+    },
+    {
+      "@type": "Place",
+      "name": "TAM – Interkulturelles Familienzentrum tam",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Wilhelmstr. 116–117",
+        "postalCode": "10963",
+        "addressLocality": "Berlin",
+        "addressRegion": "Mitte",
+        "addressCountry": "DE"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "16:30",
+          "closes": "18:00",
+          "description": "Kids training"
+        }
+      ]
+    }
+  ]
+}
+</script>
+{{ end }}
