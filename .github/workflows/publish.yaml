@@ -1,7 +1,7 @@
 name: Deploy website to GitHub Pages
 
 env:
-  WC_HUGO_VERSION: '0.125.7'
+  WC_HUGO_VERSION: '0.134.1'
 
 on:
   # Trigger the workflow every time you push to the `main` branch
@@ -39,8 +39,9 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: /tmp/hugo_cache_runner/
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
+          key: ${{ runner.os }}-hugomod-${{ env.WC_HUGO_VERSION }}-${{ hashFiles('**/go.mod') }}
           restore-keys: |
+            ${{ runner.os }}-hugomod-${{ env.WC_HUGO_VERSION }}-
             ${{ runner.os }}-hugomod-
       - name: Setup Pages
         id: pages
