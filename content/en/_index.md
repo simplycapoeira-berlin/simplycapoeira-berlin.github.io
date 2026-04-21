@@ -21,14 +21,40 @@ sections:
 
         Welcome to **Simplesmente Capoeira Berlin e.V.** – your club for **Capoeira in Berlin**. We are an international capoeira group whose purpose is to implement the fundamentals of capoeira, focusing on the evolution of technique and basic principles. We train in the heart of Berlin in **Schöneberg**, **Kreuzberg** and **Mitte** – for beginners, advanced students, kids and adults.
 
+  - block: contact
+    id: trainings
+    content:
+      title: Training Locations (MELO, KSG, TAM)
+      text: |-
+        Join us at the training, guests are always welcome! Currently we have two adult training sessions and two kids training sessions at:
+          <br>**MELO**: upper gym at **M**arie-**E**lisabeth-**L**üders-**O**berschule
+          <br>**KSG**: upper gym at **K**urt-**S**chumacher-**G**rundschule
+          <br>**TAM**: gym at the **tam** Intercultural Family Center
+
+        > **New to Capoeira?** [Learn more about trial classes & what to bring 👇](#probetraining)
+      address:
+        street: 'MELO:Steinmetzstr. 79 (10783), KSG:Puttkamerstr. 19 (10969), TAM:Wilhelmstr. 116 – 117 (10963)'
+        country: Germany
+        country_code: DE
+      office_hours:
+        - '**Kids**: '
+        - 'Tuesday(MELO) and Thursday(MELO) 17:00-18:30'
+        - 'Friday(TAM) 16:30-18:00'
+        - '**Adults**:'
+        - 'Tuesday(KSG) 18:00-19:30, Friday(MELO) 20:00-21:30'
+      autolink: true
+    design:
+      columns: '2'
+
   - block: markdown
+    id: probetraining
     content:
       title: Capoeira Training in Berlin – Trial Classes & Locations
       subtitle: For beginners, advanced students, kids and adults
       text: |
         ## Capoeira for Kids and Adults in Kreuzberg & Schöneberg
 
-        Capoeira is a Afro-Brazilian martial art that combines acrobatics, dance, music and culture. In our Berlin club you will learn the **fundamentals of capoeira**: basic techniques, movements (Ginga, Esquiva, Au), kicks, musical instruments (Berimbau, Pandeiro, Atabaque) and songs in Portuguese. Capoeira trains coordination, strength, flexibility and rhythm – and it's a lot of fun.
+        Capoeira is an Afro-Brazilian martial art that combines acrobatics, dance, music and culture. In our Berlin club you will learn the **fundamentals of capoeira**: basic techniques, movements (Ginga, Esquiva, Au), kicks, musical instruments (Berimbau, Pandeiro, Atabaque) and songs in Portuguese. Capoeira trains coordination, strength, flexibility and rhythm – and it's a lot of fun.
 
         ## Capoeira Training in Berlin: Our Locations
 
@@ -49,38 +75,9 @@ sections:
         - Clean indoor sports shoes
         - A water bottle and a good mood
 
-        Get in touch via our [contact page](./contact/) or simply show up at one of the training times listed below.
+        Get in touch via our [contact page](./contact/) or simply show up at one of the [training times listed above](#trainings).
     design:
       columns: '1'
-
-  
-  - block: contact
-    content:
-      title: Training Locations (MELO, KSG, TAM) 
-      text: |-
-        Join us at the training, guests are always welcome! Currently we have two adult training session and two kids training sessions at:
-          <br>**MELO**: upper gym at **M**arie-**E**lisabeth-**L**üders-**O**berschule
-          <br>**KSG**: upper gym at **K**urt-**S**chumacher-**G**rundschule
-          <br>**TAM**: gym of Interkulturellen Familienzentrums **tam**
-      address:
-        street: 'MELO:Steinmetzstr. 79 (10783), KSG:Puttkamerstr. 19 (10969), TAM:Wilhelmstr. 116 – 117 (10963)'
-        # city: Berlin 
-        # postcode: '10783'
-        country: Germany
-        country_code: DE
-      # coordinates:
-      #   latitude: '52.499238779432005'
-      #   longitude: '13.36469710838366'
-      # directions: small gym on the upper floor
-      office_hours:
-        - '**Kids**: '
-        - 'Tuesday(MELO) and Thursday(MELO) 17:00-18:30'
-        - 'Friday(TAM) 16:30-18:00'
-        - '**Adults**:'
-        - 'Tuesday(KSG) 18:00-19:30, Friday(MELO) 20:00-21:30'
-      autolink: true
-    design:
-      columns: '2'
 
   - block: collection
     content:
