@@ -1,0 +1,35 @@
+{{/*
+  Local fallback for blox-core/functions/get_hook.
+
+  Why this file exists
+  --------------------
+  The current blox-bootstrap/v5 (v5.9.8-0.20250301201144-...) calls
+  `partial "blox-core/functions/get_hook" (dict "hook" "<name>" "context" .)`
+  from site_head.html. That partial lives in the `blox-core` Hugo module.
+  Our project's `go.mod` pins `blox-core v0.4.1`, which predates the hooks
+  system, so the partial is missing and Hugo errors with
+  `partial "blox-core/functions/get_hook" not found`.
+
+  Hugo resolves partials from the project's own layouts before any mounted
+  module, so this file shadows the missing module partial with a safe local
+  implementation. It loads `layouts/partials/hooks/<hook>.html` if it
+  exists, and returns an empty string otherwise — which is the correct
+  behaviour for any hook that has no user-provided content.
+
+  Long-term fix: run `hugo mod get -u github.com/HugoBlox/hugo-blox-builder/modules/blox-core`
+  locally, commit the updated go.mod / go.sum. Once blox-core ships
+  get_hook.html, this fallback will still be used (project layouts win over
+  modules) but will behave identically to the upstream version for sites
+  that don't register their own hooks — so it's safe to keep or to delete
+  after the module is updated.
+*/}}
+{{- $hook := .hook -}}
+{{- $ctx  := .context -}}
+{{- $out  := "" -}}
+{{- if $hook -}}
+  {{- $path := printf "hooks/%s" $hook -}}
+  {{- if templates.Exists (printf "partials/%s.html" $path) -}}
+    {{- $out = partial $path $ctx -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}
