@@ -7,7 +7,7 @@ en:
   languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir: content/en
-  title: 'Simplesmente Capoeira e.V. | Training for Adults & Kids'
+  title: 'Simplesmente Capoeira e.V.'
   params:
     description: 'Learn Capoeira in Berlin! Simplesmente Capoeira e.V. offers training for beginners, adults and kids in Schöneberg, Kreuzberg and Mitte. Come to a free trial class!'
 
@@ -16,7 +16,7 @@ de:
   languageCode: de-de
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir: content/de
-  title: 'Simplesmente Capoeira e.V. | Training für Erwachsene & Kinder'
+  title: 'Simplesmente Capoeira e.V.'
   params:
     description: 'Lerne Capoeira in Berlin! Simplesmente Capoeira e.V. bietet Training für Anfänger, Erwachsene und Kinder in Schöneberg, Kreuzberg und Mitte. Komm zum Probetraining!'
 
