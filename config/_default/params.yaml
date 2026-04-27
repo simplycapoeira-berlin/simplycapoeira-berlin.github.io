@@ -19,15 +19,15 @@ marketing:
     sport: 'Capoeira' 
     local_business_type: ''
     org_name: 'Simplesmente Capoeira e.V.'
-    description: 'Capoeira Berlin – Simplesmente Capoeira e.V. offers Capoeira training for beginners, adults, teenagers and kids in Schöneberg, Kreuzberg and Mitte. Come to a free trial class (Probetraining)!'
+    description: 'Capoeira Berlin – Simplesmente Capoeira e.V. offers Afro-Brazilian movement, acrobatics, music and martial-arts training for beginners, adults, teenagers and kids in Schöneberg, Kreuzberg and Mitte. Your first month of training (Probetraining) is free!'
     twitter: ''
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-94YS2N69JT'
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''
   verification:
-    google: ''
+    google: 'p1iQvMbhdk_z998KsjN7IC_OSsiN-pxHzAw0CVPj3HQ'
     baidu: ''
 
 # Site header

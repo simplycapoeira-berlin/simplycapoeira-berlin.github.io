@@ -1,5 +1,8 @@
 ---
-title: People
+title: Trainer & Team
+seo:
+  title: 'Capoeira Berlin Trainer & Team | Simplesmente Capoeira e.V.'
+  description: 'Meet the trainers of Simplesmente Capoeira Berlin e.V. – experienced Capoeira instructors leading training for adults, teenagers and kids in Berlin Schöneberg, Kreuzberg and Mitte.'
 date: 2022-10-24
 
 type: landing

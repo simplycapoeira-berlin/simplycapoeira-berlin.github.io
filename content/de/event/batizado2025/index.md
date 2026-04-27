@@ -1,5 +1,8 @@
 ---
 title: Batizado e Troca de Cordas - 2025
+seo:
+  title: 'Batizado e Troca de Cordas 2025 – Capoeira Berlin | Simplesmente Capoeira'
+  description: 'Capoeira-Berlin-Batizado 2025 mit Mestre Bala. Drei Tage Workshops, Technik und Energie in Berlin – Gäste, Schüler und Anfänger willkommen. 26.–28. September 2025.'
 
 event: Batizado e Troca de Cordas
 event_url: https://www.sc-capoeira.de

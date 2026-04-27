@@ -1,5 +1,8 @@
 ---
-title: Contact
+title: Kontakt – Capoeira Berlin
+seo:
+  title: 'Kontakt – Capoeira Berlin | Simplesmente Capoeira e.V.'
+  description: 'Kontaktiert Simplesmente Capoeira Berlin e.V. – Fragen rund um Training, Probetraining, Kindergruppen, Mitgliedschaft und Veranstaltungen. EMail, Instagram & YouTube.'
 date: 2024-08-06
 
 type: landing

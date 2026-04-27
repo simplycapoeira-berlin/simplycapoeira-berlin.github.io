@@ -1,5 +1,413 @@
-{{/* Custom <head> additions. The main SEO JSON-LD lives in
-     layouts/partials/marketing/site_verification.html (called from the
-     theme's head.html). This file is a second hook used by some
-     Hugoblox base templates — keep it empty to avoid duplicating the
-     schema. Add additional <link>/<meta> tags here if needed. */}}
+{{/* ------------------------------------------------------------------
+     Custom <head> additions for Simplesmente Capoeira Berlin e.V.
+
+     The Hugo Blox theme calls this partial near the end of the <head>
+     of every page (see blox-bootstrap site_head.html), which makes it
+     the right hook for our extra structured-data blocks. Site-
+     verification meta tags are already injected by the blox-seo module
+     (it reads site.Params.marketing.verification.*), so we only need to
+     emit JSON-LD here.
+
+     Important: inside <script type="application/ld+json">, Hugo's
+     contextual auto-escaping already renders Go strings as valid JSON
+     string literals (with surrounding quotes and proper escaping). So
+     we DO NOT call `jsonify` on individual fields — that would
+     double-encode and produce strings like "\"foo\"".
+
+     Schemas emitted:
+       * Home  → SportsClub + 2× Course (kids / adults) + FAQPage
+       * Event → schema.org/Event built from the page's front matter
+     ------------------------------------------------------------------ */}}
+
+{{- $logo  := resources.Get "media/icon.png" -}}
+{{- $image := resources.Get "media/sharing.jpg" -}}
+{{- $logoURL  := "" -}}{{ with $logo  }}{{ $logoURL  = .Permalink }}{{ end }}
+{{- $imageURL := "" -}}{{ with $image }}{{ $imageURL = .Permalink }}{{ end }}
+{{- $orgId := printf "%s#organization"  site.BaseURL -}}
+{{- $kidsId   := printf "%s#course-kids"   site.BaseURL -}}
+{{- $adultsId := printf "%s#course-adults" site.BaseURL -}}
+{{- $faqId    := printf "%s#faq"           site.BaseURL -}}
+{{- $description := or site.Params.description site.Params.marketing.seo.description -}}
+
+{{ if eq .Kind "home" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["SportsClub", "SportsActivityLocation"],
+      "@id": {{ $orgId }},
+      "name": "Simplesmente Capoeira Berlin e.V.",
+      "alternateName": ["Simplesmente Capoeira e.V.", "SC Capoeira Berlin", "Capoeira Berlin"],
+      "url": {{ site.BaseURL }},
+      {{ with $logoURL  }}"logo":  {{ . }},{{ end }}
+      {{ with $imageURL }}"image": {{ . }},{{ end }}
+      "description": {{ $description }},
+      "sport": "Capoeira",
+      "keywords": "Capoeira Berlin, Berlin Capoeira, Capoeira für Kinder Berlin, Capoeira for kids Berlin, Capoeira Schöneberg, Capoeira Kreuzberg, Capoeira Mitte, Afro-Brazilian movement Berlin, acrobatics Berlin, movement and acrobatics, martial arts Berlin, Probetraining Capoeira, free trial month",
+      "knowsLanguage": ["en", "de", "pt-BR"],
+      "areaServed": [
+        { "@type": "City", "name": "Berlin" },
+        { "@type": "AdministrativeArea", "name": "Berlin-Schöneberg" },
+        { "@type": "AdministrativeArea", "name": "Berlin-Kreuzberg" },
+        { "@type": "AdministrativeArea", "name": "Berlin-Mitte" }
+      ],
+      "audience": [
+        { "@type": "PeopleAudience", "audienceType": "Kids", "suggestedMinAge": 6, "suggestedMaxAge": 14 },
+        { "@type": "PeopleAudience", "audienceType": "Teenagers" },
+        { "@type": "PeopleAudience", "audienceType": "Adults", "suggestedMinAge": 15 },
+        { "@type": "PeopleAudience", "audienceType": "Beginners" }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Steinmetzstr. 79",
+        "postalCode": "10783",
+        "addressLocality": "Berlin",
+        "addressRegion": "Berlin",
+        "addressCountry": "DE"
+      },
+      "email": "sc-capo-berlin@t-online.de",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "sc-capo-berlin@t-online.de",
+        "availableLanguage": ["English", "German", "Portuguese"]
+      },
+      "sameAs": [
+        "https://www.instagram.com/simplesmente_capoeira_berlin/",
+        "https://www.youtube.com/@SimplesmenteCapoeiraBerlin",
+        "https://www.youtube.com/@Tourocapoeira"
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "name": "Probetraining (free trial month)",
+          "description": "Your first month of Capoeira training with us is free — guests are always welcome.",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "eligibleDuration": {
+            "@type": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "MON"
+          },
+          "availability": "https://schema.org/InStock"
+        }
+      ],
+      "location": [
+        {
+          "@type": "Place",
+          "name": "MELO – Marie-Elisabeth-Lüders-Oberschule",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Steinmetzstr. 79",
+            "postalCode": "10783",
+            "addressLocality": "Berlin",
+            "addressRegion": "Schöneberg",
+            "addressCountry": "DE"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 52.499238779432005,
+            "longitude": 13.36469710838366
+          },
+          "openingHoursSpecification": [
+            { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday",  "opens": "17:00", "closes": "18:30", "description": "Kids training" },
+            { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "17:00", "closes": "18:30", "description": "Kids training" },
+            { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday",   "opens": "20:00", "closes": "21:30", "description": "Adults training" }
+          ]
+        },
+        {
+          "@type": "Place",
+          "name": "KSG – Kurt-Schumacher-Grundschule",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Puttkamerstr. 19",
+            "postalCode": "10969",
+            "addressLocality": "Berlin",
+            "addressRegion": "Kreuzberg",
+            "addressCountry": "DE"
+          },
+          "openingHoursSpecification": [
+            { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "18:00", "closes": "19:30", "description": "Adults training" }
+          ]
+        },
+        {
+          "@type": "Place",
+          "name": "TAM – Interkulturelles Familienzentrum tam",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Wilhelmstr. 116–117",
+            "postalCode": "10963",
+            "addressLocality": "Berlin",
+            "addressRegion": "Mitte",
+            "addressCountry": "DE"
+          },
+          "openingHoursSpecification": [
+            { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "16:30", "closes": "18:00", "description": "Kids training" }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Course",
+      "@id": {{ $kidsId }},
+      "name": "Capoeira for Kids in Berlin",
+      "alternateName": "Capoeira für Kinder in Berlin",
+      "description": "Weekly Capoeira classes for children (~6–14) in Berlin. Kids learn Afro-Brazilian movement, acrobatics, music and culture — coordination, rhythm, balance and self-confidence — in a playful, supportive group. The first month of training is free.",
+      "provider": { "@id": {{ $orgId }} },
+      "inLanguage": ["en", "de"],
+      "audience": { "@type": "PeopleAudience", "audienceType": "Children", "suggestedMinAge": 6, "suggestedMaxAge": 14 },
+      "courseMode": ["onsite", "in-person"],
+      "educationalLevel": "Beginner to advanced",
+      "teaches": ["Capoeira", "Movement", "Acrobatics", "Brazilian martial arts", "Coordination", "Music", "Portuguese songs"],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "category": "Free trial month",
+        "eligibleDuration": { "@type": "QuantitativeValue", "value": 1, "unitCode": "MON" },
+        "availability": "https://schema.org/InStock"
+      },
+      "hasCourseInstance": [
+        {
+          "@type": "CourseInstance",
+          "name": "Capoeira Kids – MELO Schöneberg",
+          "courseMode": "onsite",
+          "courseSchedule": {
+            "@type": "Schedule",
+            "scheduleTimezone": "Europe/Berlin",
+            "byDay": ["Tuesday", "Thursday"],
+            "startTime": "17:00",
+            "endTime": "18:30",
+            "repeatFrequency": "P1W"
+          },
+          "location": {
+            "@type": "Place",
+            "name": "Marie-Elisabeth-Lüders-Oberschule (upper gym)",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Steinmetzstr. 79",
+              "postalCode": "10783",
+              "addressLocality": "Berlin",
+              "addressRegion": "Schöneberg",
+              "addressCountry": "DE"
+            }
+          }
+        },
+        {
+          "@type": "CourseInstance",
+          "name": "Capoeira Kids – TAM Mitte/Kreuzberg",
+          "courseMode": "onsite",
+          "courseSchedule": {
+            "@type": "Schedule",
+            "scheduleTimezone": "Europe/Berlin",
+            "byDay": ["Friday"],
+            "startTime": "16:30",
+            "endTime": "18:00",
+            "repeatFrequency": "P1W"
+          },
+          "location": {
+            "@type": "Place",
+            "name": "Interkulturelles Familienzentrum tam",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Wilhelmstr. 116–117",
+              "postalCode": "10963",
+              "addressLocality": "Berlin",
+              "addressRegion": "Mitte",
+              "addressCountry": "DE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Course",
+      "@id": {{ $adultsId }},
+      "name": "Capoeira for Adults in Berlin",
+      "alternateName": "Capoeira für Erwachsene in Berlin",
+      "description": "Weekly Capoeira training for adults and teenagers in Berlin — open to beginners and experienced students. Learn the Ginga, kicks, acrobatics, Afro-Brazilian movement, music (Berimbau, Pandeiro, Atabaque) and Portuguese songs. The first month of training is free.",
+      "provider": { "@id": {{ $orgId }} },
+      "inLanguage": ["en", "de"],
+      "audience": { "@type": "PeopleAudience", "audienceType": "Adults", "suggestedMinAge": 15 },
+      "courseMode": ["onsite", "in-person"],
+      "educationalLevel": "Beginner to advanced",
+      "teaches": ["Capoeira", "Movement", "Acrobatics", "Brazilian martial arts", "Music", "Portuguese songs"],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "category": "Free trial month",
+        "eligibleDuration": { "@type": "QuantitativeValue", "value": 1, "unitCode": "MON" },
+        "availability": "https://schema.org/InStock"
+      },
+      "hasCourseInstance": [
+        {
+          "@type": "CourseInstance",
+          "name": "Capoeira Adults – KSG Kreuzberg",
+          "courseMode": "onsite",
+          "courseSchedule": {
+            "@type": "Schedule",
+            "scheduleTimezone": "Europe/Berlin",
+            "byDay": ["Tuesday"],
+            "startTime": "18:00",
+            "endTime": "19:30",
+            "repeatFrequency": "P1W"
+          },
+          "location": {
+            "@type": "Place",
+            "name": "Kurt-Schumacher-Grundschule (upper gym)",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Puttkamerstr. 19",
+              "postalCode": "10969",
+              "addressLocality": "Berlin",
+              "addressRegion": "Kreuzberg",
+              "addressCountry": "DE"
+            }
+          }
+        },
+        {
+          "@type": "CourseInstance",
+          "name": "Capoeira Adults – MELO Schöneberg",
+          "courseMode": "onsite",
+          "courseSchedule": {
+            "@type": "Schedule",
+            "scheduleTimezone": "Europe/Berlin",
+            "byDay": ["Friday"],
+            "startTime": "20:00",
+            "endTime": "21:30",
+            "repeatFrequency": "P1W"
+          },
+          "location": {
+            "@type": "Place",
+            "name": "Marie-Elisabeth-Lüders-Oberschule (upper gym)",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Steinmetzstr. 79",
+              "postalCode": "10783",
+              "addressLocality": "Berlin",
+              "addressRegion": "Schöneberg",
+              "addressCountry": "DE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": {{ $faqId }},
+      "inLanguage": {{ site.Language.Lang }},
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where can I do Capoeira in Berlin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Simplesmente Capoeira Berlin e.V. trains at three locations in Berlin: MELO (Marie-Elisabeth-Lüders-Oberschule, Steinmetzstr. 79, 10783 Berlin-Schöneberg), KSG (Kurt-Schumacher-Grundschule, Puttkamerstr. 19, 10969 Berlin-Kreuzberg) and TAM (Interkulturelles Familienzentrum tam, Wilhelmstr. 116–117, 10963 Berlin-Mitte/Kreuzberg)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer Capoeira for kids in Berlin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — we offer dedicated Capoeira classes for children in Berlin. Kids train Tuesday and Thursday 17:00–18:30 at MELO (Schöneberg) and Friday 16:30–18:00 at TAM (Mitte/Kreuzberg). Children typically join from around age 6. The first month of training is free."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the trial period really a whole month? (Probetraining)",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — your first month of training (Probetraining) with us is free of charge, no registration and no prior experience required. Just come by during one of our regular training times."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Capoeira a martial art, a dance or movement and acrobatics?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Capoeira is all of these. It is an Afro-Brazilian art that combines movement, acrobatics, music, dance and martial arts in a single practice. In our Berlin classes you train coordination, strength, flexibility, rhythm and body awareness while learning the Ginga, kicks, esquivas and acrobatic floreios."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I bring to my first Capoeira class?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Comfortable sports clothes (long pants are recommended), clean indoor sports shoes, a water bottle and a good mood. No special equipment is needed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need any prior experience to start Capoeira?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No prior experience is required — we welcome complete beginners. You will learn the fundamentals (Ginga, Esquiva, basic kicks, music and songs) step by step in a friendly group."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What languages are training held in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Training is bilingual in German and English; Capoeira songs are sung in Portuguese."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+{{ end }}
+
+{{/* ------------------------------------------------------------------
+     EVENT PAGES — schema.org/Event built from the page's front matter
+     ------------------------------------------------------------------ */}}
+{{ if and (eq .Section "event") (eq .Kind "page") }}
+{{- $startDate := "" -}}{{ with .Params.date }}{{ $startDate = (time .).Format "2006-01-02T15:04:05-07:00" }}{{ end }}
+{{- $endDate   := "" -}}{{ with .Params.date_end }}{{ $endDate   = (time .).Format "2006-01-02T15:04:05-07:00" }}{{ end }}
+{{- $eventName := or .Params.event .Title -}}
+{{- $eventImage := "" -}}
+{{- with .Resources.GetMatch "featured.*" }}{{ $eventImage = .Permalink }}{{ end }}
+{{- $eventDescription := or .Params.abstract (or .Params.summary .Title) -}}
+{{- $loc := .Params.location | default "" -}}
+{{- $addr := .Params.address -}}
+{{- $street  := "" -}}{{ with $addr }}{{ $street  = (or .street "") }}{{ end -}}
+{{- $city    := "Berlin" -}}{{ with $addr }}{{ with .city }}{{ $city = . }}{{ end }}{{ end -}}
+{{- $country := "DE" -}}{{ with $addr }}{{ with .country_code }}{{ $country = . }}{{ end }}{{ end -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": {{ $eventName }},
+  "url": {{ .Permalink }},
+  "description": {{ $eventDescription }},
+  {{ with $eventImage }}"image": {{ . }},{{ end }}
+  {{ with $startDate }}"startDate": {{ . }},{{ end }}
+  {{ with $endDate }}"endDate": {{ . }},{{ end }}
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "inLanguage": {{ site.Language.Lang }},
+  "location": {
+    "@type": "Place",
+    "name": {{ $loc }},
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": {{ $street }},
+      "addressLocality": {{ $city }},
+      "addressCountry": {{ $country }}
+    }
+  },
+  "organizer": { "@id": {{ $orgId }} },
+  "performer": { "@id": {{ $orgId }} },
+  "offers": {
+    "@type": "Offer",
+    "url": {{ .Permalink }},
+    "availability": "https://schema.org/InStock",
+    "category": "Workshop"
+  }
+}
+</script>
+{{ end }}

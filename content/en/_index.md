@@ -4,34 +4,36 @@
 title:
 date: 2022-10-24
 type: landing
+summary: 'Capoeira Berlin: Afro-Brazilian movement, acrobatics, music and martial-arts training for beginners, adults and kids in Schöneberg, Kreuzberg and Mitte. Your first month (Probetraining) is free.'
 seo:
-  title: 'Capoeira Berlin | Training for Adults & Kids | Simplesmente Capoeira e.V.'
-  description: 'Learn Capoeira in Berlin! Simplesmente Capoeira e.V. offers training for beginners, adults and kids in Schöneberg, Kreuzberg and Mitte. Come to a free trial class!'
+  title: 'Capoeira Berlin – Movement, Acrobatics & Music for Adults & Kids | Simplesmente Capoeira e.V.'
+  description: 'Capoeira Berlin: Afro-Brazilian movement, acrobatics, music and martial-arts training for beginners, adults and kids in Schöneberg, Kreuzberg and Mitte. Your first month (Probetraining) is free.'
 
 sections:
 
   - block: hero
     content:
       title: |
-        Simplesmente Capoeira Berlin
+        Capoeira Berlin – Simplesmente Capoeira
       image:
         filename: sharing.jpg
+        alt_text: 'Capoeira Berlin – training group of Simplesmente Capoeira Berlin e.V. practising the Ginga, kicks and music'
       text: |
         <br>
 
-        Welcome to **Simplesmente Capoeira Berlin e.V.** – your club for **Capoeira in Berlin**. We are an international capoeira group whose purpose is to implement the fundamentals of capoeira, focusing on the evolution of technique and basic principles. We train in the heart of Berlin in **Schöneberg**, **Kreuzberg** and **Mitte** – for beginners, advanced students, kids and adults.
+        Welcome to **Simplesmente Capoeira Berlin e.V.** – your club for **Capoeira in Berlin**. We are an international Berlin Capoeira group exploring the Afro-Brazilian art that mixes **movement, acrobatics, music and martial arts**. We train in the heart of Berlin in **Schöneberg**, **Kreuzberg** and **Mitte** – for [adults & beginners](#probetraining) and [kids](#kids). Your **first month** of training is **free** – just come to one of our [training times](#trainings).
 
   - block: contact
     id: trainings
     content:
       title: Training Locations (MELO, KSG, TAM)
       text: |-
-        Join us at the training, guests are always welcome! Currently we have two adult training sessions and two kids training sessions at:
+        Join us at the training, guests are always welcome and the **first month is free**. Currently we have two [adult training](#probetraining) sessions and two [kids training](#kids) sessions at:
           <br>**MELO**: upper gym at **M**arie-**E**lisabeth-**L**üders-**O**berschule
           <br>**KSG**: upper gym at **K**urt-**S**chumacher-**G**rundschule
           <br>**TAM**: gym at the **tam** Intercultural Family Center
 
-        > **New to Capoeira?** [Learn more about trial classes & what to bring 👇](#probetraining)
+        > **New to Capoeira?** [Learn what to bring & how the free trial month works 👇](#probetraining)
       address:
         street: 'MELO:Steinmetzstr. 79 (10783), KSG:Puttkamerstr. 19 (10969), TAM:Wilhelmstr. 116 – 117 (10963)'
         country: Germany
@@ -49,33 +51,63 @@ sections:
   - block: markdown
     id: probetraining
     content:
-      title: Capoeira Training in Berlin – Trial Classes & Locations
-      subtitle: For beginners, advanced students, kids and adults
+      title: Capoeira Training in Berlin – Free Trial Month & Locations
+      subtitle: Movement, acrobatics, music – for beginners, advanced students, kids and adults
       text: |
-        ## Capoeira for Kids and Adults in Kreuzberg & Schöneberg
+        ## Capoeira in Berlin – Movement, Acrobatics & Music
 
-        Capoeira is an Afro-Brazilian martial art that combines acrobatics, dance, music and culture. In our Berlin club you will learn the **fundamentals of capoeira**: basic techniques, movements (Ginga, Esquiva, Au), kicks, musical instruments (Berimbau, Pandeiro, Atabaque) and songs in Portuguese. Capoeira trains coordination, strength, flexibility and rhythm – and it's a lot of fun.
+        Capoeira is an Afro-Brazilian martial art that blends **movement, acrobatics, dance, music and culture** into one practice. In our **Berlin Capoeira** club you will learn the **fundamentals of capoeira**: the basic movement vocabulary (Ginga, Esquiva, Au and other floreios), kicks, **acrobatic** elements, musical instruments (Berimbau, Pandeiro, Atabaque) and songs in Portuguese. Capoeira trains coordination, strength, flexibility, rhythm and body awareness – and it's a lot of fun.
 
         ## Capoeira Training in Berlin: Our Locations
 
-        We offer **Capoeira training in Berlin** at three locations in **Schöneberg, Kreuzberg and Mitte**:
+        We offer **Capoeira training in Berlin** at three locations in **Schöneberg, Kreuzberg and Mitte** – see all [training times above](#trainings):
 
         - **MELO** – Marie-Elisabeth-Lüders-Oberschule, Steinmetzstr. 79, **10783 Berlin-Schöneberg**
         - **KSG** – Kurt-Schumacher-Grundschule, Puttkamerstr. 19, **10969 Berlin-Kreuzberg**
         - **TAM** – Interkulturelles Familienzentrum tam, Wilhelmstr. 116–117, **10963 Berlin-Mitte / Kreuzberg**
 
-        Whether you are looking for **Capoeira Kreuzberg**, **martial arts Schöneberg** or **capoeira for kids in Berlin** – you are in the right place.
+        Whether you are looking for **Capoeira Kreuzberg**, **Capoeira Schöneberg**, **Capoeira Mitte**, an **acrobatic movement practice** or **[Capoeira for kids in Berlin](#kids)** – you are in the right place.
 
-        ## Trial Class: Just Come By!
+        ## Free trial month: Just come by!
 
-        Would you like to try Capoeira? **Come to a trial class** – guests are always welcome and your first class is free. No prior experience is required.
+        Would you like to try Capoeira? **Come to a training session** – guests are always welcome and the **first month of training is free**. No prior experience and no registration required.
 
         **What to bring:**
         - Comfortable sports clothes (long pants recommended)
         - Clean indoor sports shoes
         - A water bottle and a good mood
 
-        Get in touch via our [contact page](./contact/) or simply show up at one of the [training times listed above](#trainings).
+        Get in touch via our [contact page](./contact/) or simply show up at one of the [training times listed above](#trainings). Looking for the kids' group? Jump straight to **[Capoeira for kids in Berlin](#kids)**.
+    design:
+      columns: '1'
+
+  - block: markdown
+    id: kids
+    content:
+      title: Capoeira for Kids in Berlin
+      subtitle: Playful Afro-Brazilian movement, acrobatics & music for children (~6–14)
+      text: |
+        Looking for **Capoeira for kids in Berlin**? Our children's classes give kids a joyful, supportive way into Capoeira – an Afro-Brazilian art that mixes **movement, acrobatics, music and martial arts**. We focus on **fun, coordination, rhythm, balance, body awareness and self-confidence**.
+
+        ### What kids learn in our Berlin Capoeira classes
+        - **Ginga, basic kicks and esquivas** – the foundation of Capoeira **movement**
+        - **Acrobatics and balance** (cartwheel / Au, basic floreios) in a safe, progressive way
+        - **Music & instruments** – Berimbau, Pandeiro, Atabaque, plus singing in Portuguese
+        - **Roda etiquette** – playing fairly with a partner inside the Capoeira circle
+
+        ### Capoeira kids training times & locations in Berlin
+        See all [training times above](#trainings):
+
+        - **Tuesday & Thursday, 17:00–18:30** – MELO, Marie-Elisabeth-Lüders-Oberschule, Steinmetzstr. 79, **10783 Berlin-Schöneberg**
+        - **Friday, 16:30–18:00** – TAM, Interkulturelles Familienzentrum tam, Wilhelmstr. 116–117, **10963 Berlin-Mitte / Kreuzberg**
+
+        ### Frequently asked questions from parents
+        - **From what age can my child join?** Children typically start from around **6 years old**. Younger siblings are welcome to try with a parent.
+        - **Is the first class free?** Even better – the **first month of training (Probetraining) is free**, no registration needed.
+        - **What language is the class in?** Bilingual **German & English** – Capoeira songs are sung in Portuguese.
+        - **What should my child wear?** Comfortable sports clothes (long pants recommended) and clean indoor sports shoes. Bring a water bottle.
+
+        Just bring your child along to one of the [training times above](#trainings), or [get in touch](./contact/) – we look forward to meeting you!
     design:
       columns: '1'
 

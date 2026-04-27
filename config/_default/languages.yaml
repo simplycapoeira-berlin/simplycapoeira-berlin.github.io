@@ -9,7 +9,7 @@ en:
   contentDir: content/en
   title: 'Simplesmente Capoeira e.V.'
   params:
-    description: 'Learn Capoeira in Berlin! Simplesmente Capoeira e.V. offers training for beginners, adults and kids in Schöneberg, Kreuzberg and Mitte. Come to a free trial class!'
+    description: 'Learn Capoeira in Berlin! Simplesmente Capoeira e.V. teaches Afro-Brazilian movement, acrobatics, music and martial arts for beginners, adults and kids in Schöneberg, Kreuzberg and Mitte. First month of training is free.'
 
 # alternative language
 de:
@@ -18,7 +18,7 @@ de:
   contentDir: content/de
   title: 'Simplesmente Capoeira e.V.'
   params:
-    description: 'Lerne Capoeira in Berlin! Simplesmente Capoeira e.V. bietet Training für Anfänger, Erwachsene und Kinder in Schöneberg, Kreuzberg und Mitte. Komm zum Probetraining!'
+    description: 'Lerne Capoeira in Berlin! Simplesmente Capoeira e.V. unterrichtet afro-brasilianische Bewegung, Akrobatik, Musik und Kampfkunst für Anfänger, Erwachsene und Kinder in Schöneberg, Kreuzberg und Mitte. Der erste Monat Training ist kostenlos.'
 
 # Uncomment the lines below to configure your website in a second language.
 #zh:

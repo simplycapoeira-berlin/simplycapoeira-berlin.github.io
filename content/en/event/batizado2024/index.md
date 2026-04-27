@@ -1,5 +1,8 @@
 ---
 title: Batizado e Troca de Cordas - 2024
+seo:
+  title: 'Batizado e Troca de Cordas 2024 – Capoeira Berlin | Simplesmente Capoeira'
+  description: 'Capoeira Berlin Batizado 2024 with Mestre Bala – three days of training, music and Roda. Recap with photos and video from the Simplesmente Capoeira Berlin event.'
 
 event: Batizado e Troca de Cordas
 event_url: https://www.sc-capoeira.de
