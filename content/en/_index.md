@@ -29,21 +29,23 @@ sections:
       title: Training Locations (MELO, KSG, TAM)
       text: |-
         Join us at the training, guests are always welcome and the **first month is free**. Currently we have two [adult training](#probetraining) sessions and two [kids training](#kids) sessions at:
-          <br>**MELO**: upper gym at **M**arie-**E**lisabeth-**L**üders-**O**berschule
-          <br>**KSG**: upper gym at **K**urt-**S**chumacher-**G**rundschule
-          <br>**TAM**: gym at the **tam** Intercultural Family Center
+          <br>**[MELO](https://maps.app.goo.gl/BPBgbh3EvnWAD4Fo7)**: upper gym at **M**arie-**E**lisabeth-**L**üders-**O**berschule
+          <br>**[KSG](https://maps.app.goo.gl/MzPxUjBwu3oMrWGs6)**: upper gym at **K**urt-**S**chumacher-**G**rundschule
+          <br>**[TAM](https://maps.app.goo.gl/rQE4FopjV2LYNTX46)**: gym at the **tam** Intercultural Family Center
 
         > **New to Capoeira?** [Learn what to bring & how the free trial month works 👇](#probetraining)
       address:
-        street: 'MELO:Steinmetzstr. 79 (10783), KSG:Puttkamerstr. 19 (10969), TAM:Wilhelmstr. 116 – 117 (10963)'
+        street: 'MELO: <a href="https://maps.app.goo.gl/BPBgbh3EvnWAD4Fo7" target="_blank" rel="noopener">Steinmetzstr. 79 (10783)</a><br>KSG: <a href="https://maps.app.goo.gl/MzPxUjBwu3oMrWGs6" target="_blank" rel="noopener">Puttkamerstr. 19 (10969)</a><br>TAM: <a href="https://maps.app.goo.gl/rQE4FopjV2LYNTX46" target="_blank" rel="noopener">Wilhelmstr. 116 – 117 (10963)</a>'
         country: Germany
         country_code: DE
       office_hours:
-        - '**Kids**: '
-        - 'Tuesday(MELO) and Thursday(MELO) 17:00-18:30'
-        - 'Friday(TAM) 16:30-18:00'
-        - '**Adults**:'
-        - 'Tuesday(KSG) 18:00-19:30, Friday(MELO) 20:00-21:30'
+        - '**Kids**'
+        - 'Tuesday and Thursday 17:00-18:30  MELO'
+        - 'Friday 16:30-18:00  TAM'
+        - ''
+        - '**Adults**'
+        - 'Tuesday 18:00-19:30  KSG'
+        - 'Friday 20:00-21:30  MELO'
       autolink: true
     design:
       columns: '2'
@@ -62,9 +64,9 @@ sections:
 
         We offer **Capoeira training in Berlin** at three locations in **Schöneberg, Kreuzberg and Mitte** – see all [training times above](#trainings):
 
-        - **MELO** – Marie-Elisabeth-Lüders-Oberschule, Steinmetzstr. 79, **10783 Berlin-Schöneberg**
-        - **KSG** – Kurt-Schumacher-Grundschule, Puttkamerstr. 19, **10969 Berlin-Kreuzberg**
-        - **TAM** – Interkulturelles Familienzentrum tam, Wilhelmstr. 116–117, **10963 Berlin-Mitte / Kreuzberg**
+        - **MELO** – [Marie-Elisabeth-Lüders-Oberschule, Steinmetzstr. 79, **10783 Berlin-Schöneberg**](https://maps.app.goo.gl/BPBgbh3EvnWAD4Fo7)
+        - **KSG** – [Kurt-Schumacher-Grundschule, Puttkamerstr. 19, **10969 Berlin-Kreuzberg**](https://maps.app.goo.gl/MzPxUjBwu3oMrWGs6)
+        - **TAM** – [Interkulturelles Familienzentrum tam, Wilhelmstr. 116–117, **10963 Berlin-Mitte / Kreuzberg**](https://maps.app.goo.gl/rQE4FopjV2LYNTX46)
 
         Whether you are looking for **Capoeira Kreuzberg**, **Capoeira Schöneberg**, **Capoeira Mitte**, an **acrobatic movement practice** or **[Capoeira for kids in Berlin](#kids)** – you are in the right place.
 
@@ -98,8 +100,8 @@ sections:
         ### Capoeira kids training times & locations in Berlin
         See all [training times above](#trainings):
 
-        - **Tuesday & Thursday, 17:00–18:30** – MELO, Marie-Elisabeth-Lüders-Oberschule, Steinmetzstr. 79, **10783 Berlin-Schöneberg**
-        - **Friday, 16:30–18:00** – TAM, Interkulturelles Familienzentrum tam, Wilhelmstr. 116–117, **10963 Berlin-Mitte / Kreuzberg**
+        - **Tuesday & Thursday, 17:00–18:30** – [MELO](https://maps.app.goo.gl/BPBgbh3EvnWAD4Fo7), Marie-Elisabeth-Lüders-Oberschule, Steinmetzstr. 79, **10783 Berlin-Schöneberg**
+        - **Friday, 16:30–18:00** – [TAM](https://maps.app.goo.gl/rQE4FopjV2LYNTX46), Interkulturelles Familienzentrum tam, Wilhelmstr. 116–117, **10963 Berlin-Mitte / Kreuzberg**
 
         ### Frequently asked questions from parents
         - **From what age can my child join?** Children typically start from around **6 years old**. Younger siblings are welcome to try with a parent.

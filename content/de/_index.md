@@ -28,21 +28,23 @@ sections:
       title: Trainingsorte (MELO, KSG, TAM)
       text: |-
         Kommt zu unserem Training, Gäste sind immer willkommen und der **erste Monat ist kostenlos**. Zurzeit bieten wir je zwei [Trainingseinheiten für Erwachsene](#probetraining) und für [Kinder/Jugendliche](#kinder) in:
-          <br>**MELO**: Gymnastikhalle (oben) der **M**arie-**E**lisabeth-**L**üders-**O**berschule
-          <br>**KSG**: oberen Sporthalle der **K**urt-**S**chumacher-**G**rundschule
-          <br>**TAM**: Sporthalle des Interkulturellen Familienzentrums **tam**
+          <br>**[MELO](https://maps.app.goo.gl/BPBgbh3EvnWAD4Fo7)**: Gymnastikhalle (oben) der **M**arie-**E**lisabeth-**L**üders-**O**berschule
+          <br>**[KSG](https://maps.app.goo.gl/MzPxUjBwu3oMrWGs6)**: oberen Sporthalle der **K**urt-**S**chumacher-**G**rundschule
+          <br>**[TAM](https://maps.app.goo.gl/rQE4FopjV2LYNTX46)**: Sporthalle des Interkulturellen Familienzentrums **tam**
 
         > **Neu bei Capoeira?** [Alles zum Probetraining (1. Monat gratis) & was Du mitbringen solltest 👇](#probetraining)
       address:
-        street: 'MELO:Steinmetzstr. 79 (10783), KSG:Puttkamerstr. 19 (10969), TAM:Wilhelmstr. 116 – 117 (10963)'
+        street: 'MELO: <a href="https://maps.app.goo.gl/BPBgbh3EvnWAD4Fo7" target="_blank" rel="noopener">Steinmetzstr. 79 (10783)</a><br>KSG: <a href="https://maps.app.goo.gl/MzPxUjBwu3oMrWGs6" target="_blank" rel="noopener">Puttkamerstr. 19 (10969)</a><br>TAM: <a href="https://maps.app.goo.gl/rQE4FopjV2LYNTX46" target="_blank" rel="noopener">Wilhelmstr. 116 – 117 (10963)</a>'
         country: Germany
         country_code: DE
       office_hours:
-        - '**Kinder**: '
-        - 'Dienstag(MELO) und Donnerstag(MELO) 17:00-18:30'
-        - 'Freitag(TAM) 16:30-18:00'
-        - '**Erwachsene**:'
-        - 'Dienstag(KSG) 18:00-19:30, Freitag(MELO) 20:00-21:30'
+        - '**Kinder**'
+        - 'Dienstag und Donnerstag 17:00-18:30  MELO'
+        - 'Freitag 16:30-18:00  TAM'
+        - ''
+        - '**Erwachsene**'
+        - 'Dienstag 18:00-19:30  KSG'
+        - 'Freitag 20:00-21:30  MELO'
       autolink: true
     design:
       columns: '2'
@@ -61,9 +63,9 @@ sections:
 
         Wir bieten **Capoeira Training in Berlin** an drei Standorten in **Schöneberg, Kreuzberg und Mitte** an – alle [Trainingszeiten oben](#trainings):
 
-        - **MELO** – Marie-Elisabeth-Lüders-Oberschule, Steinmetzstr. 79, **10783 Berlin-Schöneberg**
-        - **KSG** – Kurt-Schumacher-Grundschule, Puttkamerstr. 19, **10969 Berlin-Kreuzberg**
-        - **TAM** – Interkulturelles Familienzentrum tam, Wilhelmstr. 116–117, **10963 Berlin-Mitte / Kreuzberg**
+        - **MELO** – [Marie-Elisabeth-Lüders-Oberschule, Steinmetzstr. 79, **10783 Berlin-Schöneberg**](https://maps.app.goo.gl/BPBgbh3EvnWAD4Fo7)
+        - **KSG** – [Kurt-Schumacher-Grundschule, Puttkamerstr. 19, **10969 Berlin-Kreuzberg**](https://maps.app.goo.gl/MzPxUjBwu3oMrWGs6)
+        - **TAM** – [Interkulturelles Familienzentrum tam, Wilhelmstr. 116–117, **10963 Berlin-Mitte / Kreuzberg**](https://maps.app.goo.gl/rQE4FopjV2LYNTX46)
 
         Ob Du nach **Capoeira Kreuzberg**, **Capoeira Schöneberg**, **Capoeira Mitte**, einer **akrobatischen Bewegungspraxis** oder **[Capoeira für Kinder in Berlin](#kinder)** suchst – bei uns bist Du richtig.
 
@@ -97,8 +99,8 @@ sections:
         ### Trainingszeiten Capoeira Kinder Berlin
         Alle [Trainingszeiten oben](#trainings):
 
-        - **Dienstag & Donnerstag, 17:00–18:30 Uhr** – MELO, Marie-Elisabeth-Lüders-Oberschule, Steinmetzstr. 79, **10783 Berlin-Schöneberg**
-        - **Freitag, 16:30–18:00 Uhr** – TAM, Interkulturelles Familienzentrum tam, Wilhelmstr. 116–117, **10963 Berlin-Mitte / Kreuzberg**
+        - **Dienstag & Donnerstag, 17:00–18:30 Uhr** – [MELO](https://maps.app.goo.gl/BPBgbh3EvnWAD4Fo7), Marie-Elisabeth-Lüders-Oberschule, Steinmetzstr. 79, **10783 Berlin-Schöneberg**
+        - **Freitag, 16:30–18:00 Uhr** – [TAM](https://maps.app.goo.gl/rQE4FopjV2LYNTX46), Interkulturelles Familienzentrum tam, Wilhelmstr. 116–117, **10963 Berlin-Mitte / Kreuzberg**
 
         ### Häufige Fragen von Eltern
         - **Ab welchem Alter kann mein Kind mitmachen?** Üblicherweise ab **ca. 6 Jahren**. Jüngere Geschwister können gerne mit einer Begleitperson schnuppern.

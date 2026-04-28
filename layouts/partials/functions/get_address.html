@@ -1,0 +1,42 @@
+{{/* Function to return a formatted address given a semantic address. */}}
+{{/* LOCAL OVERRIDE of blox-bootstrap/layouts/partials/functions/get_address.html: */}}
+{{/*   1) The address.street value is NOT HTML-escaped, so it can contain raw HTML */}}
+{{/*      (e.g. <a href="…">…</a> hyperlinks to Google Maps for each location). */}}
+{{/*      Other fields (city/region/postcode/country) are still escaped. */}}
+{{/*   2) The trailing delimiter after the last non-empty field is dropped, */}}
+{{/*      so the output doesn't end with a stray ", " when only `street` is set. */}}
+
+{{/* Check for valid site config. */}}
+{{ if not site.Data.address_formats }}{{ errorf "Address formats missing from `data/address_formats.toml`!" }}{{ end }}
+
+{{ $page := . }}
+{{ $address := .address }}
+{{ $format_name := $page.Params.address_format | default site.Params.locale.address_format | default "en-us" }}
+
+{{ if not (isset site.Data.address_formats $format_name) }}{{ errorf "Address format `%s` missing from `data/address_formats.toml`!" $format_name }}{{ end }}
+
+{{ $format := index site.Data.address_formats $format_name }}
+
+{{/* Collect (value, delim-after) pairs for each non-empty field, in display order. */}}
+{{ $items := slice }}
+{{ range $k, $v := $format.order }}
+  {{ $val := "" }}
+  {{ if and (eq $v "street")   $address.street   }}{{ $val = $address.street }}{{ end }}
+  {{ if and (eq $v "city")     $address.city     }}{{ $val = transform.HTMLEscape $address.city }}{{ end }}
+  {{ if and (eq $v "region")   $address.region   }}{{ $val = transform.HTMLEscape $address.region }}{{ end }}
+  {{ if and (eq $v "postcode") $address.postcode }}{{ $val = transform.HTMLEscape $address.postcode }}{{ end }}
+  {{ if and (eq $v "country")  $address.country  }}{{ $val = transform.HTMLEscape $address.country }}{{ end }}
+  {{ if $val }}
+    {{ $items = $items | append (dict "val" $val "delim" (index $format.delimiters $k | default "")) }}
+  {{ end }}
+{{ end }}
+
+{{/* Concatenate, but skip the delimiter after the last item. */}}
+{{ $output := "" }}
+{{ $n := len $items }}
+{{ range $i, $item := $items }}
+  {{ $output = print $output $item.val }}
+  {{ if lt (add $i 1) $n }}{{ $output = print $output $item.delim }}{{ end }}
+{{ end }}
+
+{{ return safeHTML $output }}
